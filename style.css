@@ -1,10 +1,30 @@
+.titulo {
+  margin: 5% 30% 0 30%;
+  font-size: 240%;
+  text-align: center;
+}
+
 #menu ul {
-    padding:0px;
-  margin:0px;
+  font-size: 150%;
+  padding:50px 0px 50px 0px; 
+  margin:5% 30% 5% 30%;
   background-color:#EDEDED;
   list-style:none;
+  text-align: center;
+  border-radius: 30px;
 }
 
 #menu ul li {
 display: inline;
+margin: 5%;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#menu ul li a {
+  padding: 2px 10px; 
+  display: inline-block; /* visual do link */ 
+  background-color:#EDEDED; 
+  color: #333; 
+  text-decoration: none; 
+  border-bottom:3px solid #EDEDED;
 }
