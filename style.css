@@ -49,3 +49,32 @@ a:link{
   font-size: 3em;
   text-align: center;
 }
+
+#rodape{
+  font-size: 1em;
+  text-align: center;
+  margin-top: 10em;
+}
+
+#subtitulo_h3{
+font-size: 1em;
+margin-top: 2em;
+margin-bottom: 5px;
+}
+
+#formulario_titulo{
+  text-align: center;
+  margin: 2em 0 0 0;
+  font-size: 2em;
+}
+
+#formulario{
+  text-align: center;
+  margin: 3em;
+  
+}
+
+#caixa_texto{
+  padding: 30px;
+}
+
