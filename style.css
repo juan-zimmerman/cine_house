@@ -118,6 +118,10 @@ p{
   font-size: 2em;
 }
 
+@media only screen and (max-device-width: 700px) {
+  .sobre { width:400px; }
+  }
+
 #img_div{
   display: grid;
   justify-content: center;
