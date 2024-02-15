@@ -37,15 +37,9 @@ a:link{
   grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 380px) {
-  #menu-position {
-      grid-template-columns: 1fr 1fr 1fr;
-  }
-  }
-
 @media screen and (min-width: 576px) {
 #menu-position {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   }
   }
 @media screen and (min-width: 992px) {
@@ -114,13 +108,28 @@ p{
 .sobre{
   display: block;
   justify-content: center;
-  margin: 5em 10em 0 10em;
-  font-size: 2em;
+  margin: 2rem auto;
+    padding: 2rem auto;
+  font-size: 0.25em auto;
+  text-align: center;
 }
 
 @media only screen and (max-device-width: 700px) {
   .sobre { width:400px; }
   }
+
+  #bloco_filmes{
+    display: block;
+    justify-content: center;
+    margin: 2rem auto;
+    padding: 2rem auto;
+    font-size: 0.25em auto;
+    text-align: center;
+  }
+  
+  @media only screen and (max-device-width: 700px) {
+    #bloco_filmes { width:400px; }
+    }
 
 #img_div{
   display: grid;
