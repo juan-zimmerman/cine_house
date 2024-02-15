@@ -1,3 +1,7 @@
+body{
+  background-color: rgba(255, 227, 194, 0.3);
+}
+
 a:visited {
  color: rgb(0, 0, 0);
 }
@@ -6,9 +10,10 @@ a:link{
   color: rgba(180, 100, 100, 1);
 }
 
-.font {
-  font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
+.font{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -98,4 +103,16 @@ p{
   justify-content: center;
   margin: 5em 10em 0 10em;
   font-size: 2em;
+}
+
+#img_div{
+  display: flex;
+  justify-content: center;
+}
+
+#img{
+  
+  margin: 100px auto 10px auto;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 20px;
 }
