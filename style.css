@@ -144,13 +144,13 @@ p{
 
 #img_div{
   display: grid;
-  justify-content: center;
   grid-template-columns: 1fr;
 }
 
 #img{
   size: 10%;
-  margin: 100px auto 10px auto;
+  margin-left: 3rem;
+  margin-top: 3rem;
   box-shadow: 10px 10px 20px black;
   border-radius: 20px;
 }
@@ -162,7 +162,9 @@ p{
     margin: 1rem auto;
     border-radius: 1rem;
   }
+  
   }
+  
 
 @media screen and (min-width: 380px) {
   #img_div {
