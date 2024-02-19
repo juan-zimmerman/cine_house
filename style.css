@@ -114,6 +114,7 @@ margin-bottom: 5px;
 
 p{
   font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
 }
 
 .sobre{
@@ -188,3 +189,10 @@ p{
   }
 
 
+#img_sinopse{
+  float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
