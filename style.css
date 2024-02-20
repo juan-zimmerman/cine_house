@@ -149,7 +149,7 @@ p{
 }
 
 #img{
-  size: 10%;
+  width: 12em;
   margin-left: 3rem;
   margin-top: 3rem;
   box-shadow: 10px 10px 20px black;
