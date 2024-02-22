@@ -191,7 +191,7 @@ margin-bottom: 5px;
 }
 
 p{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Quicksand";
   margin: auto;
 }
 
@@ -250,14 +250,10 @@ p{
   }
   }
 
-@media screen and (min-width: 576px) {
-  #img_div {
-      grid-template-columns: 1fr 1fr 1fr;
-  }
-  }
+
 @media screen and (min-width: 992px) {
   #img_div {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   }
 
