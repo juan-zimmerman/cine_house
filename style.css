@@ -286,3 +286,15 @@ p{
 #informacoes{
   margin: 1em;
 }
+
+#botaovoltar{
+  position: absolute;
+  display: inline-block;
+  left: 95%;
+  background-color: rgba(225, 229, 242, .80);
+  margin-top: 1%;
+  padding: 8px;
+  border-radius: 12px;
+  font-family: "Quicksand";
+  text-decoration: none;
+}
