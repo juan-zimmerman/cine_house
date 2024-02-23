@@ -122,6 +122,20 @@ a:link{
   justify-content: space-around;
 }
 
+.quarto {
+  font-family: var(--fonte-padrao);
+  text-align: center;
+  padding: 2% 1%;
+}
+
+.titulo__trailer {
+  font-size: 25px;
+}
+
+.video {
+  padding: 2% 1%;
+}
+
 .menu {
   font: "Quicksand";
 }
