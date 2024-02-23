@@ -51,21 +51,20 @@ a:link{
 }
 
 #menu-position{
-  text-align: center;
-  background-color: rgba(180, 100, 100, 0.05);
-  width: 50vw;
-  height: auto;
-  margin: 1rem auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  border-radius: 10px;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  position: absolute;
+  display: inline-flex;
+  right:0 ;
+  background-color: rgba(225, 229, 242, .80);
+  margin-top: 5%;
+  padding: 20px 50% 20px 50%;
+  font-family: "Quicksand";
+  text-decoration: none;
 }
 
 .imagem__cabecalho {
   width: 100%;
   height: 5%;
+  box-shadow: 0px 1px 10px black;
 }
 
 .primeiro {
@@ -136,8 +135,10 @@ a:link{
   padding: 2% 1%;
 }
 
-.menu {
+#menu {
   font: "Quicksand";
+  margin: 10px 30px 10px 30px;
+
 }
 
 @media screen and (min-width: 576px) {
