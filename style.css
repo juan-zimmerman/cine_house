@@ -52,7 +52,8 @@ a:link{
 
 #menu-position{
   position: absolute;
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: 1fr;
   right:0 ;
   background-color: rgba(225, 229, 242, .80);
   margin-top: 5%;
@@ -95,12 +96,16 @@ a:link{
   font-size: 20px;
   text-align: center;
   padding: 3%;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .sinopse {
   font-size: 20px;
   font-family: var(--fonte-texto);
   padding: 2%;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 
@@ -116,7 +121,8 @@ a:link{
 
 .imagem__galeria {
   padding: 2% 1% 2% 1%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -225,6 +231,8 @@ p{
 
 #img{
   width: 12em;
+  display: grid;
+  grid-template-columns: 1fr;
   margin-left: 3rem;
   margin-top: 3rem;
   box-shadow: 10px 10px 20px black;
