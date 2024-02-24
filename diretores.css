@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Inter&display=swap');
+
+:root {
+
+    --fonte-padrao: 'Inria Serif', serif;
+    --fonte-texto: 'Inter', sans-serif;
+
+    --cor-fundo: #eff2f6;
+    --cor-quarta: #ced9e3;
+    --cor-quinta: #bdccd9;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.diretor1 {
+    background-color: var(--cor-quarta);
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1% 20% 1% 20%;
+    list-style-type: none;
+}
+
+.diretor2 {
+    background-color: var(--cor-quinta);
+}
+
+.imagem__diretor {
+    border-radius: 20px;
+}
+
+.nome__diretor {
+    font-family: var(--fonte-padrao);
+    font-size: 25px;
+    padding: 0% 0% 5%;
+}
+
+.lista__diretor {
+    font-family: var(--fonte-texto);
+    padding: 0% 0% 1%;
+
+}
+
+details,summary {
+    outline: none;
+    user-select: none;
+}
+
+details {
+    cursor: pointer;
+}
+
+summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+summary::after  {
+    content: '+';
+}
+
+.bio__summary1 {
+    font-size: 20px;
+    background-color: var(--cor-quinta);
+}
+
+.bio__summary2 {
+    background-color: var(--cor-quarta);
+}
+
+.titulo__summary {
+    font-family: var(--fonte-padrao);
+    padding: 1% 0% 2%;
+}
+
+.paragrafo__summary {
+    font-family: var(--fonte-texto);
+    padding: 0% 0% 1%;
+}
