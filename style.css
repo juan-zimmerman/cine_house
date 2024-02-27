@@ -109,6 +109,7 @@ a:link{
 }
 
 
+
 .terceiro {
   font-family: var(--fonte-padrao);
   padding: 2% 1%;
@@ -125,6 +126,21 @@ a:link{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   flex-wrap: wrap;
   justify-content: space-around;
+  border-radius: 27px;
+}
+
+.imagem__footer {
+  display: block;
+  text-align: center;
+  margin: 0.5rem auto;
+  border-radius: 27px;
+}
+
+.imagem__direita {
+  display: block;
+  text-align: direita;
+  margin: 0.5rem auto;
+  border-radius: 27px;
 }
 
 .quarto {
