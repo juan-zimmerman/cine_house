@@ -5,13 +5,19 @@
     --fonte-padrao: 'Inria Serif', serif;
     --fonte-texto: 'Inter', sans-serif;
 
-    --cor-fundo: #E1E5F2;
+    --cor-fundo: #eff2f6;
+    --cor-header: #DEE6EC;
+    --cor-quarta: #ced9e3;
+    --cor-quinta: #bdccd9;
+
 }
+
 
 * {
     margin: 0;
     padding: 0;
 }
+
 
 body{
   background-color: var(--cor-fundo);
@@ -25,31 +31,29 @@ a:link{
   color: rgba(180, 100, 100, 1);
 }
 
-.font{
-  font-family: "Quicksand";
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+.cabecalho {
+  background-color: var(--cor-header);
+  padding: 20px;
 }
 
-
-.titulo{
-  font-size: 100%;
-  margin: 40px;
-  text-align: center;
-  font-size: 4em;
-  font-family: "Quicksand";
+.logo {
+width: 200px;
+height: 50px;
 }
 
-.logo{
-  display: inline;
+.cabecalho__menu {
+  display: flex;
+  gap: 80px;
   justify-content: center;
-  margin-top: auto;
-  width: 8rem;
-  height: 8rem;
-  
 }
 
+.cabecalho__menu__link{
+  font-family: var(--fonte-padrao);
+  font-size: 1.2rem;
+  font-weight: 650;
+  color: var(--cor-terciaria);
+  text-decoration: none;
+}
 #menu-position{
   position: absolute;
   display: grid;
