@@ -12,7 +12,6 @@
 
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +20,7 @@
 body {
     background-color: var(--cor-fundo);
 }
+
 
 .cabecalho {
     background-color: var(--cor-header);
@@ -42,64 +42,73 @@ body {
     font-family: var(--fonte-padrao);
     font-size: 1.2rem;
     font-weight: 550;
-    color: var(--cor-header);
+    color: var(--cor-terciaria);
     text-decoration: none;
 }
 
-.diretor1 {
-    align-items: flex-start;
+.menu-position{
     display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 3% 20% 1% 20%;
-    list-style-type: none;
+    grid-template-columns: 1fr;
+    margin-top: 5%;
+    padding: 20px 50% 20px 50px;
+    text-decoration: none;
 }
-
-.imagem__diretor {
-    border-radius: 20px;
-}
-
-.nome__diretor {
+  
+  .formulario_titulo{
+    text-align: center;
+    margin: 2em 0 0 0;
+    font-size: 2em;
     font-family: var(--fonte-padrao);
-    font-size: 25px;
-    padding: 0% 0% 5%;
-}
+  }
 
-.lista__diretor {
+  .subtitulo_h3 {
     font-family: var(--fonte-texto);
-    padding: 0% 0% 1%;
+    margin: 1em 0 0.5em 0;
 
-}
+  }
+  
+  .formulario{
+    text-align: center;
+    margin: 3em;
+    
+  }
 
-details,summary {
-    outline: none;
-    user-select: none;
-}
+  .caixa__texto1 {
+    padding: 20px 0% 20px 5%
+  }
+  
+  .caixa_texto2{
+    padding: 50px 0% 50px 30%
+  }
 
-details {
-    cursor: pointer;
-}
-
-summary {
+  .container {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-between;
-}
-
-summary::after  {
-    content: '+';
-}
-
-.bio__summary1 {
-    font-size: 20px;
-    background-color: var(--cor-quarta);
-}
-
-.titulo__summary {
-    font-family: var(--fonte-padrao);
-    padding: 1% 0% 2%;
-}
-
-.paragrafo__summary {
+    margin-top: 50px;
+  }
+  
+  .integrantes {
+    text-align: center;
+  }
+  
+  .nome__sobrenome {
+    margin: 10px 0;
     font-family: var(--fonte-texto);
-    padding: 0% 0% 1%;
-}
+    font-size: 20px;
+  }
+  
+  .links {
+    margin-top: 10px;
+  }
+  
+  .links a {
+    display: flexbox;
+    margin-bottom: 5px;
+  }
+
+  .rodape{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 10em;
+  }

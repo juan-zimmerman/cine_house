@@ -6,51 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contato.css">
     <link rel="stylesheet" href="responsividade-imagens.css">
-    <title>Filmes</title>
+    <title>Entre em contato!</title>
 </head>
 
-<body class="font">
+<body>
 
-    <a href="index.html"><h1 class="titulo"><img class="logo" src="imagens/logo.png" alt="Logotype">Cine House - Studio Ghibli</h1></a>
+    <header class="cabecalho">
+        <nav>
+            <nav class="cabecalho__menu">
+                <img class="logo" src="imagens/contato/logo1.png">
+                <a class="cabecalho__menu__link" href="index.html">Inicio</a>
+                <a class="cabecalho__menu__link" href="historia.html">Historia</a>
+                <a class="cabecalho__menu__link" href="diretores.html">Diretores</a>
+                <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+            </nav>
+        </nav>
+    </header>
 
     <nav>
-
-        <ul id="menu-position">
-    
-            <li id="menu"><a href="index.html">Inicio</a></li>
-            <li id="menu"><a href="filmes.html">Filmes</a></li>
-            <li id="menu"><a href="contato.html">Contato</a></li>
-            <li id="menu"><a href="diretores.html">Diretores</a></li>
-        </ul>
-    </nav>
-        <h1 id="formulario_titulo">Entre em contato conosco</h1>
-
-        <fieldset id="formulario">
-            
+        <h1 class="formulario_titulo">Entre em contato conosco</h1>
+        <fieldset class="formulario">
             <form>
-                <h3 id="subtitulo_h3">Nome</h3>
+                <h3 class="subtitulo_h3">Nome:</h3>
                 <label for="Nome_Sobrenome"></label>
-                <input type="text"="text" name="Nome_Sobrenome" placeholder="Digite seu nome">
+                <input class="caixa__texto1" type="text"="text" name="Nome_Sobrenome" placeholder="Digite seu nome">
 
-                <h3 id="subtitulo_h3">E-mail de contato</h3>
-                <input type="email" name="email" value="" placeholder="E-mail">
+                <h3 class="subtitulo_h3">E-mail de contato:</h3>
+                <input class="caixa__texto1" type="email" name="email" value="" placeholder="E-mail">
                 
-                <h3 id="subtitulo_h3">Sua Mensagem</h3>
+                <h3 class="subtitulo_h3">Sua Mensagem:</h3>
                 <label for="Nome_Sobrenome"></label>
-                <input id="caixa_texto" type="text"="text" name="Texto" placeholder="Deixe sua Mensagem">
+                <input class="caixa_texto2" type="text"="text" name="Texto" placeholder="Deixe sua Mensagem">
                 
-                <input id="botao" type="button" value="Enviar">
+                <input class="botao" type="button" value="Enviar">
                 
             </form>
-
         </fieldset>
 
+        <section class="container">
+            <div class="integrantes">
+              <img src="imagens/contato/iconeliza.png" alt="Foto da integrante Eliza Melquiades">
+              <p class="nome__sobrenome">Eliza Melquíades</p>
+              <div class="links">
+                <a href="https://github.com/elizamelq" target="_blank"><img src="imagens/contato/icongithub.png" alt="Icone do Github"></a>
+                <a href="https://www.linkedin.com/in/elizamelquiades/" target="_blank"><img src="imagens/contato/iconlinkedin.png" alt="Icone do Linkedin"></a>
+              </div>
+            </div>
+            <div class="integrantes">
+              <img src="imagens/contato/iconjuliane.png" alt="Foto da integrante Juliane Watanabe">
+              <p class="nome__sobrenome">Juliane Watanabe</p>
+              <div class="links">
+                <a href="https://github.com/watanabejuliane" target="_blank"><img src="imagens/contato/icongithub.png" alt="Icone do Github"></a>
+                <a href="https://www.linkedin.com/in/juliane-watanabe-b-mendes-37833a263/" target="_blank"><img src="imagens/contato/iconlinkedin.png" alt="Icone do Linkedin"></a>
+              </div>
+            </div>
+            <div class="integrantes">
+                <img src="imagens/contato/iconjuan.png" alt="Foto do integrante Juan Zimmerman">
+                <p class="nome__sobrenome">Juan Zimmerman</p>
+                <div class="links">
+                  <a href="https://github.com/juan-zimmerman" target="_blank"><img src="imagens/contato/icongithub.png" alt="Icone do Github"></a>
+                  <a href="https://www.linkedin.com/in/juan-zimmerman-6849b52aa/" target="_blank"><img src="imagens/contato/iconlinkedin.png" alt="Icone do Linkedin"></a>
+                </div>
+              </div>
+              <div class="integrantes">
+                <img src="imagens/contato/iconjoão.png" alt="Foto do integrante João Paulo dos Santos">
+                <p class="nome__sobrenome">João Paulo dos Santos</p>
+                <div class="links">
+                  <a href="https://github.com/dosant0s" target="_blank"><img src="imagens/contato/icongithub.png" alt="Icone do Github"></a>
+                  <a href="https://example.com" target="_blank"><img src="imagens/contato/iconlinkedin.png" alt="Icone do Linkedin"></a>
+                </div>
+              </div>
+        </section>
 
-        <footer id="rodape">
+        <footer class="rodape">
             <a
                 href="https://www.coderhouse.com.br/?pipe_source=google&pipe_medium=cpc&pipe_campaign=0&gad_source=1&gclid=Cj0KCQiAw6yuBhDrARIsACf94RXDS97Ho69j13X4dQ0l-uPLnFkvsC_4cWnuFfU_gXgSmfX1FJJQdQEaAn7DEALw_wcB">CoderHouse
                 ₢</a>
