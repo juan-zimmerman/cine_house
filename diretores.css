@@ -41,7 +41,7 @@ body {
 .cabecalho__menu__link{
     font-family: var(--fonte-padrao);
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 650;
     color: var(--cor-header);
     text-decoration: none;
 }
