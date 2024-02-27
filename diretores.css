@@ -29,7 +29,7 @@ body {
 
 .logo {
   width: 200px;
-  height: 40px;
+  height: 50px;
 }
 
 .cabecalho__menu {
@@ -41,7 +41,7 @@ body {
 .cabecalho__menu__link{
     font-family: var(--fonte-padrao);
     font-size: 1.2rem;
-    font-weight: 550;
+    font-weight: 600;
     color: var(--cor-header);
     text-decoration: none;
 }
