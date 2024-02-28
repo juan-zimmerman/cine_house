@@ -303,4 +303,10 @@ p{
   border-radius: 12px;
   font-family: "Quicksand";
   text-decoration: none;
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+
+#botaovoltar:hover{
+  transform: scale(1.1);
 }
