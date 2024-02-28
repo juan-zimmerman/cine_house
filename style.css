@@ -53,6 +53,7 @@ height: 50px;
   font-weight: 650;
   color: var(--cor-terciaria);
   text-decoration: none;
+  margin-top: 0.8%;
 }
 #menu-position{
   position: absolute;
