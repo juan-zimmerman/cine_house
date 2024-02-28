@@ -257,8 +257,13 @@ p{
   margin-top: 3rem;
   box-shadow: 10px 10px 20px black;
   border-radius: 20px;
+  transition: transform 0.5s;
+  transform: scale(1);
 }
 
+#img:hover{
+  transform: scale(1.1);
+}
 
   #img_div {
     padding-left: 80px
