@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 :root {
 
     --fonte-padrao: 'Inria Serif', serif;
     --fonte-texto: 'Inter', sans-serif;
+    --fonte-secundaria: "Quicksand", sans-serif;
 
     --cor-fundo: #eff2f6;
     --cor-header: #DEE6EC;
+    --cor-botão-voltar: #e1e5f2;
     --cor-quarta: #ced9e3;
     --cor-quinta: #bdccd9;
-
 }
+
 
 * {
     margin: 0;
@@ -94,7 +97,7 @@ body {
   
   .nome__sobrenome {
     margin: 10px 0;
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-secundaria);
     font-size: 20px;
   }
   

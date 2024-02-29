@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 :root {
 
     --fonte-padrao: 'Inria Serif', serif;
     --fonte-texto: 'Inter', sans-serif;
+    --fonte-secundaria: "Quicksand", sans-serif;
 
     --cor-fundo: #eff2f6;
     --cor-header: #DEE6EC;
+    --cor-botão-voltar: #e1e5f2;
     --cor-quarta: #ced9e3;
     --cor-quinta: #bdccd9;
-
 }
 
 
@@ -158,12 +160,7 @@ height: 50px;
   margin-top: 10em;
 }
 
-p{
-  font-family: "Quicksand";
-  margin: auto;
-} 
-
-#img_div{
+.img_div{
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -192,7 +189,7 @@ p{
   position: absolute;
   display: inline-block;
   left: 95%;
-  background-color: rgba(225, 229, 242, .80);
+  background-color: var(--cor-botão-voltar);
   margin-top: 1%;
   padding: 8px;
   border-radius: 12px;
