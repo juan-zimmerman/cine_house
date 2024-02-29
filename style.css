@@ -9,9 +9,10 @@
 
     --cor-fundo: #eff2f6;
     --cor-header: #DEE6EC;
-    --cor-botão-voltar: #e1e5f2;
+    --cor-botão-voltar: #e1e5f2a8;
     --cor-quarta: #ced9e3;
     --cor-quinta: #bdccd9;
+    --cor-botão-voltar-hover: #e1e5f2;
 }
 
 
@@ -205,4 +206,6 @@ height: 50px;
 
 .botaovoltar:hover{
   transform: scale(1.1);
+  background-color: var(--cor-botão-voltar-hover);
+  transition: 0.5s;
 }
