@@ -55,17 +55,7 @@ height: 50px;
   text-decoration: none;
   margin-top: 0.8%;
 }
-#menu-position{
-  position: absolute;
-  display: grid;
-  grid-template-columns: 1fr;
-  right:0 ;
-  background-color: rgba(225, 229, 242, .80);
-  margin-top: 5%;
-  padding: 20px 50% 20px 50%;
-  font-family: "Quicksand";
-  text-decoration: none;
-}
+
 
 .imagem__cabecalho {
   width: 100%;
@@ -162,95 +152,23 @@ height: 50px;
   padding: 2% 1%;
 }
 
-#menu {
-  font: "Quicksand";
-  margin: 10px 30px 10px 30px;
-
-}
-
-#integrantes_principal{
-  text-align: center;
-  background-color: rgba(180, 100, 100, 0.05);
-  padding: 20px 0px 20px 0px;
-  margin: 100px 20% 0 20% ;
-  border-radius: 10px;
-}
-
-#integrantes{
-  margin: 20px 0 0 0;
-  font-size: 3em;
-  text-align: center;
-}
-
-#rodape{
+.rodape{
   font-size: 1em;
   text-align: center;
   margin-top: 10em;
 }
 
-#subtitulo_h3{
-font-size: 1em;
-margin-top: 2em;
-margin-bottom: 5px;
-}
-
-#formulario_titulo{
-  text-align: center;
-  margin: 2em 0 0 0;
-  font-size: 2em;
-}
-
-#formulario{
-  text-align: center;
-  margin: 3em;
-  
-}
-
-#caixa_texto{
-  padding: 30px;
-}
-
-#bloco_filmes{
-  display: block;
-  justify-content: center;
-  margin: 10em;
-}
-
-#titulo_filmes{
-  padding: 2em;
-  font-size: 1rem;
-}
-
 p{
   font-family: "Quicksand";
   margin: auto;
-}
-
-.sobre{
-  display: block;
-  justify-content: center;
-  margin: 2rem auto;
-    padding: 2rem auto;
-  font-size: 0.25em auto;
-  text-align: center;
-}
-
-  #bloco_filmes{
-    display: block;
-    justify-content: center;
-    margin: 2rem auto;
-    padding: 2rem auto;
-    font-size: 0.25em auto;
-    text-align: center;
-  }
-  
+} 
 
 #img_div{
   display: grid;
   grid-template-columns: 1fr;
 }
 
-#img{
+.img{
   width: 12em;
   display: grid;
   grid-template-columns: 1fr;
@@ -262,38 +180,15 @@ p{
   transform: scale(1);
 }
 
-#img:hover{
+.img:hover{
   transform: scale(1.1);
 }
 
-  #img_div {
-    padding-left: 80px
-  }
-
-
-
-#img_sinopse{
-    float: left;
-    border: transparent thin solid;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
-    max-width: 186px;
+#img_div {
+  padding-left: 80px
 }
 
-#sobre{
-  margin: 1em;
-  
-}
-
-#sinopse{
-  margin: 1em;
-}
-
-#informacoes{
-  margin: 1em;
-}
-
-#botaovoltar{
+.botaovoltar {
   position: absolute;
   display: inline-block;
   left: 95%;
@@ -307,6 +202,6 @@ p{
   transition: transform 0.3s;
 }
 
-#botaovoltar:hover{
+.botaovoltar:hover{
   transform: scale(1.1);
 }
