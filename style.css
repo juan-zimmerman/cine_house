@@ -160,7 +160,7 @@ height: 50px;
   margin-top: 10em;
 }
 
-.img_div{
+#img_div{
   display: grid;
   grid-template-columns: 1fr;
 }
