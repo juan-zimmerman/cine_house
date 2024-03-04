@@ -13,6 +13,7 @@
     --cor-quarta: #ced9e3;
     --cor-quinta: #bdccd9;
     --cor-botão-voltar-hover: #e1e5f2;
+    --cor-botão-menu-hover: #CED9E3;
 }
 
 
@@ -31,17 +32,24 @@ a:visited {
 }
 
 a:link{
-  color: rgba(180, 100, 100, 1);
+  color: rgb(7, 6, 6);
 }
 
 .cabecalho {
   background-color: var(--cor-header);
   padding: 20px;
+  box-shadow: 0px 1px 10px black;
 }
 
 .logo {
 width: 200px;
 height: 50px;
+transform: scale(1);
+transition: 0.3s;
+}
+
+.logo:hover{
+  transform: scale(1.1);
 }
 
 .cabecalho__menu {
@@ -57,8 +65,16 @@ height: 50px;
   color: var(--cor-terciaria);
   text-decoration: none;
   margin-top: 0.8%;
+  border: none;
+  transform: scale(1);
+  transition: 0.3s;
 }
 
+.cabecalho__menu__link:hover{
+  border: none;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.527);
+  transform: scale(1.05);
+}
 
 .imagem__cabecalho {
   width: 100%;
