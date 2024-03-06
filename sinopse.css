@@ -155,6 +155,8 @@ body{
   
 .video {
     padding: 2% 1%;
+    width: 800px;
+    height: 500px;
 }
   
 .rodape{
