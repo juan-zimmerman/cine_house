@@ -9,10 +9,8 @@
 
     --cor-fundo: #eff2f6;
     --cor-header: #DEE6EC;
-    --cor-botão-voltar: #e1e5f2a8;
     --cor-quarta: #ced9e3;
     --cor-quinta: #bdccd9;
-    --cor-botão-voltar-hover: #e1e5f2;
     --cor-botão-menu-hover: #CED9E3;
 }
 
@@ -22,6 +20,11 @@
     padding: 0;
 }
 
+
+.cabecalho__menu__link.active {
+    color: var(--cor-quinta);
+}
+  
 
 body{
     background-color: var(--cor-fundo);
@@ -43,12 +46,20 @@ body{
     justify-content: center;
     position: fixed;
     width: 100%;
+    padding: 8px;
     top: 0;
     left: 0;
     right: 0;
     z-index: 9;
     background-color: var(--cor-header);
     opacity: 0.7;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+    transform: scale(1);
+    transition: 0.3s;
 }
 
 .cabecalho__menu__link{
@@ -125,11 +136,10 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-radius: 27px;
 }
 
 .img__galeria__individual{
-  border-radius: 10px;
+    border-radius: 15px;
 }  
 
 .trailer {
@@ -150,4 +160,34 @@ body{
     font-size: 1em;
     text-align: center;
     margin-top: 10em;
+}
+
+/* código referente a pagina historia.html*/
+
+.cabecalho__menu__historia{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    background-color: var(--cor-header);
+}
+
+.imagem__direita {
+    display: block;
+    text-align: direita;
+    margin: 0.5rem auto;
+    border-radius: 27px;
+}
+
+.imagem__footer {
+    display: block;
+    text-align: center;
+    margin: 0.5rem auto;
+    border-radius: 27px;
 }
