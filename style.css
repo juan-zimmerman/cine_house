@@ -30,14 +30,13 @@ body{
 
 .cabecalho {
   background-color: var(--cor-header);
-  padding: 20px;
-  box-shadow: 0px 1px 10px black;
 }
 
 .cabecalho__menu {
   display: flex;
   gap: 80px;
   justify-content: center;
+  padding: 8px;
 }
 
 .logo {
