@@ -131,7 +131,7 @@ body{
 }
   
 .imagem__galeria {
-    padding: 2% 1% 2% 1%;
+    padding: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     flex-wrap: wrap;
@@ -140,6 +140,7 @@ body{
 
 .img__galeria__individual{
     border-radius: 15px;
+    margin: 18px;
 }  
 
 .trailer {
