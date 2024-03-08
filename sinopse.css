@@ -196,3 +196,8 @@ body{
     width: 70%;
     height: 50%;
 }
+
+a:link {
+    text-decoration: none;
+    color: black;
+   }
