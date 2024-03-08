@@ -192,5 +192,7 @@ body{
     display: block;
     text-align: center;
     margin: 0.5rem auto;
-    border-radius: 27px;
+    border-radius: 15px;
+    width: 70%;
+    height: 50%;
 }
