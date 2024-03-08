@@ -101,3 +101,11 @@ a:link {
   text-decoration: none;
   color: black;
  }
+
+a:visited {
+  color: black;
+}
+
+a:hover{
+  color:#bdccd9
+}
