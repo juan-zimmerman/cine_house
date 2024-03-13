@@ -1,4 +1,4 @@
-# Projeto CoderHouse - Studio Ghibli 🎬
+# Projeto CoderHouse - Cine House - Studio Ghibli 🎬
 
 💻O seguinte projeto foi desenvolvido como parte do aprendizado do **Curso de HTML e CSS** da plataforma de ensino [Coderhouse](https://www.coderhouse.com/br/).
 
