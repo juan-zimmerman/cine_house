@@ -102,6 +102,8 @@ body{
     padding: 2%;
     display: grid;
     grid-template-columns: 1fr;
+    margin-left: 5%;
+    margin-right: 7%;
 }
 
 .divisoria__segundo {
@@ -109,6 +111,8 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 0% 1%;
+    margin-left: 3%;
+    margin-right: 6%;
 }
 
 .sinopse__titulo {
