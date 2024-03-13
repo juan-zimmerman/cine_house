@@ -15,4 +15,4 @@
 
 ## ✅Resultado
 
-Veja o resultado do site finalizado clicando [neste link!](https://juan-zimmerman.github.io/projeto-html/index.html)
+Veja o resultado do site finalizado clicando [neste link!](https://juan-zimmerman.github.io/cine_house/index.html)
