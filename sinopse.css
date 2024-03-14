@@ -148,6 +148,7 @@ body{
 }  
 
 .trailer {
+    display: contents;
     font-family: var(--fonte-padrao);
     text-align: center;
     padding: 2% 1%;
@@ -155,14 +156,38 @@ body{
   
 .titulo__trailer {
     font-size: 25px;
+    margin-bottom: 5%;
   }
   
 .video {
-    padding: 2% 1%;
+    margin: auto;
     width: 800px;
     height: 500px;
+    border-radius: 40px;
 }
   
+.midia{
+    text-align: center;
+    display: block;
+}
+
+.midia__youtube{
+    display: inline-block;
+}
+
+.midia__spotify__netflix{
+    display: inline-block;
+}
+.spotify{
+margin: 10px 0 0 20px;
+}
+
+.netflix{
+    display: inline ;
+    text-align: center;
+}
+
+
 .rodape{
     font-size: 1em;
     text-align: center;
