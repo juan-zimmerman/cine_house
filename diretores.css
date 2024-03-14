@@ -140,3 +140,9 @@ summary::after  {
     font-family: var(--fonte-texto);
     padding: 0 0 3%;
 }
+
+.rodape{
+  font-size: 1em;
+  text-align: center;
+  margin-top: 10em;
+}
