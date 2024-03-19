@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .home {
+            display: flex;
+            flex-direction: column;
+            /* Empilhar os elementos verticalmente */
+            align-items: center;
+            /* Centralizar os elementos horizontalmente */
+            text-align: center;
+            /* Centralizar o texto */
+        }
+        .imagem__esquerda {
+            align-self: flex-start;
+            /* Alinha a imagem à esquerda */
+        }
+        .texto__meio {
+            max-width: 20%; /* Define a largura máxima para o texto */
+            position: absolute;
+        }
+        .imagem__direita {
+            position: absolute;
+            align-self: flex-end;
+            /* Alinha a imagem à direita */
+        }
+        .imagem__bottom {
+            position: absolute;
+            align-self: flex-end;
+            margin-top: 34%;
+            /* Alinha a última imagem com a imagem à esquerda */
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="home">
+            <img src="../imagens/pagina-inicial/home-imagem1.png" class="imagem__esquerda"
+                alt="imagem do filme Castelo Animado">
+            <div class="texto__meio">
+                <h3 class="titulo__home">O que é o <br> estúdio?</h3>
+                <p>O Studio Ghibli foi fundado
+                    em 1985 e é responsável por
+                    uma infinidade de filmes de
+                    sucesso que até hoje
+                    marcam o coração dos fãs.
+                    Seja Princesa Mononoke,
+                    Meu Amigo Totoro ou A
+                    Viagem de Chihiro é
+                    impossível não reconhecer o
+                    estilo artístico impecável do
+                    estúdio. </p>
+            </div>
+            <img src="../imagens/pagina-inicial/home-imagem2.png" class="imagem__direita" alt="imagem do filme Totoro">
+            <img src="../imagens/pagina-inicial/home-imagem3.png" class="imagem__bottom" alt="imagem do filme Nausicaa">
+        </div>
+    </section>
+</body>
+</html>
