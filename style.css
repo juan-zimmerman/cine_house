@@ -76,40 +76,64 @@ transition: 0.3s;
 }
 
 .home{
-display: block;
+display: flex;
+align-content: start;
+padding-top: 3%;
 }
 
 .imagem__esquerda{
 display: inline-block;
 height: 100%;
+padding-left: 3%;
+
 }
 
 .imagem__direita{
-  display: inline-block;
+  display: flex;
   width: 100px;
-  padding: 3%;
+  position: absolute; 
+  right: 700px;
 }
 .imagem__direita2{
-  display: inline-block;
-  width: 100px;
-  padding: 3%;
-  align-content: start;
+  display: flex;
+  position: absolute; 
+  right: 300px;
+  bottom: -1090px;
 }
 
 .texto__direita{
-  display: inline-block;
+  display: flex;
   width: 100px;
 }
 
+.titulo__index{
+  font-size: 72px;
+  position: absolute;
+  right: 900px;
+  text-align: right;
+}
+
+.conteudo__index{
+  display: flex;
+  width: 200px;
+  height: 100px;
+  font-size: 22px;
+  text-align: right;
+  position: absolute;
+  right: 900px;
+  bottom: -350px;
+}
+
 .tamanho__imagem1{
-height: 200px;
-width: 200px;
+height: 500px;
+width: 500px;
 }
 
 .tamanho__imagem2{
-height: 200px;
-width: 200px;
-}
+  height: 450px;
+  width: 800px;
+  }
+
 
 /* fim do codigo pagina inicial*/
 
