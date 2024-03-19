@@ -84,7 +84,7 @@ padding-top: 3%;
 .imagem__esquerda{
 display: inline-block;
 height: 100%;
-padding-left: 3%;
+padding-left: 10%;
 
 }
 
@@ -92,13 +92,13 @@ padding-left: 3%;
   display: flex;
   width: 100px;
   position: absolute; 
-  right: 700px;
+  right: 600px;
 }
 .imagem__direita2{
   display: flex;
   position: absolute; 
-  right: 300px;
-  bottom: -1090px;
+  right: 200px;
+  bottom: -1087px;
 }
 
 .texto__direita{
@@ -109,7 +109,7 @@ padding-left: 3%;
 .titulo__index{
   font-size: 72px;
   position: absolute;
-  right: 900px;
+  right: 850px;
   text-align: right;
 }
 
@@ -120,7 +120,7 @@ padding-left: 3%;
   font-size: 22px;
   text-align: right;
   position: absolute;
-  right: 900px;
+  right: 850px;
   bottom: -350px;
 }
 
