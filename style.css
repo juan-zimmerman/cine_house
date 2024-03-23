@@ -26,6 +26,7 @@
 
 body{
   background-color: var(--cor-fundo);
+  width: 100vw;
 }
 
 .cabecalho {
@@ -71,13 +72,9 @@ transition: 0.3s;
 /*codigo da pagina inicial*/
 
 .header__home {
- width: 100%;
+ width: 100vw;
  height: 3%;
-}
-
-.imagem__esquerda {
-  width: 30%;
-  margin: 3%;
+ padding-bottom: 2%;
 }
 
 .titulo__home {
@@ -85,27 +82,47 @@ transition: 0.3s;
     font-size: 30px;
     text-align: right;
     margin-top: 3.5rem;
-    margin-left: 8%;
-    padding: 0;
     display: inline-block;
     vertical-align: top;
-    width: 20%;
-    
 }
- 
-.imagem__direita {
-  width: 30%;
-  margin: 2%;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 3.5rem;
+.conteudo__home{
+font-family: var(--fonte-padrao);
 }
 
-.imagem__bottom {
-  width: 40%;
-  margin-left: 50%;
+.container{
   display: grid;
-  text-align: right;
+  width: 100vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "img-left txt-center img-right"
+  "img-left img-bottom img-bottom" 
+  ;
+  justify-items: auto ;
+}
+
+.home__img__esquerda{
+grid-area: img-left;
+background: var(--cor-fundo);
+}
+
+.imagem__direita__bottom{
+grid-area: img-bottom;
+text-align: right;
+justify-self: top;
+
+}
+
+.imagem__direita{
+grid-area: img-right;
+}
+
+.home__txt__central{
+grid-area: txt-center;
+text-align: right;
+width: 250px;
+height: 350px;
+padding-left: 10%;
 }
 
 
