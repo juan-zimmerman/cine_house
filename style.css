@@ -20,12 +20,13 @@
     padding: 0;
 }
 
-.cabecalho__menu__link.active {
+.cabecalho_menu_link.active {
   color: var(--cor-quinta);
 }
 
 body{
   background-color: var(--cor-fundo);
+  width: 100vw;
 }
 
 .cabecalho {
@@ -50,7 +51,7 @@ transition: 0.3s;
   transform: scale(1.1);
 }
 
-.cabecalho__menu__link{
+.cabecalho_menu_link{
   font-family: var(--fonte-padrao);
   font-size: 1.2rem;
   font-weight: 650;
@@ -62,7 +63,7 @@ transition: 0.3s;
   transition: 0.3s;
 }
 
-.cabecalho__menu__link:hover{
+.cabecalho_menu_link:hover{
   border: none;
   text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.527);
   transform: scale(1.05);
@@ -71,68 +72,62 @@ transition: 0.3s;
 /*codigo da pagina inicial*/
 
 .header__home {
- width: 100%;
+ width: 100vw;
  height: 3%;
+ padding-bottom: 2%;
 }
 
-.home{
-display: flex;
-align-content: start;
-padding-top: 3%;
+.titulo__home {
+  font-family: var(--fonte-texto);
+    font-size: 30px;
+    text-align: right;
+    margin-top: 3.5rem;
+    display: inline-block;
+    vertical-align: top;
+}
+.conteudo__home{
+font-family: var(--fonte-padrao);
 }
 
-.imagem__esquerda{
-display: inline-block;
-height: 100%;
-padding-left: 10%;
+.container{
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "img-left txt-center img-right"
+  "img-left img-bottom img-bottom" 
+  ;
+  justify-items: auto ;
+}
+
+.home_img_esquerda{
+grid-area: img-left;
+background: var(--cor-fundo);
+text-align: right;
+justify-self: top;
+}
+
+.imagem_direita_bottom{
+grid-area: img-bottom;
+text-align: center;
+justify-self: top;
 
 }
 
 .imagem__direita{
-  display: flex;
-  width: 100px;
-  position: absolute; 
-  right: 600px;
-}
-.imagem__direita2{
-  display: flex;
-  position: absolute; 
-  right: 200px;
-  bottom: -1087px;
+grid-area: img-right;
+text-align: left;
+justify-self: top;
 }
 
-.texto__direita{
-  display: flex;
-  width: 100px;
+.home_txt_central{
+grid-area: txt-center;
+text-align: right;
+width: 250px;
+height: 350px;
+padding-left: 10%;
 }
-
-.titulo__index{
-  font-size: 72px;
-  position: absolute;
-  right: 850px;
-  text-align: right;
-}
-
-.conteudo__index{
-  display: flex;
-  width: 200px;
-  height: 100px;
-  font-size: 22px;
-  text-align: right;
-  position: absolute;
-  right: 850px;
-  bottom: -350px;
-}
-
-.tamanho__imagem1{
-height: 500px;
-width: 500px;
-}
-
-.tamanho__imagem2{
-  height: 450px;
-  width: 800px;
-  }
 
 
 /* fim do codigo pagina inicial*/
@@ -171,5 +166,5 @@ a:link {
  }
 
 a:visited {
-  color: black;
+  color: black;
 }
