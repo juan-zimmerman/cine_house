@@ -143,3 +143,102 @@ body{
     text-align: center;
     margin-top: 10em;
   }
+
+
+
+
+  
+  /* Estilos para dispositivos com largura de tela até 768px */
+@media only screen and (max-width: 768px) {
+  .cabecalho__menu {
+    gap: 20px; /* Reduzindo o espaçamento entre os itens do menu */
+  }
+
+  .logo {
+    width: 150px; /* Reduzindo o tamanho da logo */
+    height: 40px;
+  }
+
+  .cabecalho__menu__link {
+    font-size: 1rem; /* Reduzindo o tamanho da fonte do menu */
+    margin-top: 0.5%; /* Ajustando a margem superior */
+  }
+
+  .menu-position {
+    padding: 20px 10% 20px 10px; /* Ajustando o preenchimento do conteúdo do menu */
+  }
+
+  .caixa__texto1 {
+    padding: 20px 0% 20px 2%; /* Ajustando a caixa de texto 1 */
+  }
+
+  .caixa_texto2 {
+    padding: 50px 0% 50px 10%; /* Ajustando a caixa de texto 2 */
+  }
+
+  .rodape {
+    margin-top: 5em; /* Ajustando a margem superior do rodapé */
+  }
+}
+
+/* Estilos para dispositivos com largura de tela até 480px */
+@media only screen and (max-width: 480px) {
+  .cabecalho__menu {
+    flex-direction: column; /* Alterando a direção do menu para vertical */
+    align-items: center; /* Centralizando os itens do menu */
+    gap: 10px; /* Reduzindo o espaçamento entre os itens do menu */
+  }
+
+  .cabecalho__menu__link {
+    margin-top: 0; /* Removendo a margem superior dos links do menu */
+  }
+
+  .logo {
+    width: 120px; /* Reduzindo ainda mais o tamanho da logo */
+    height: 30px;
+  }
+
+  .menu-position {
+    padding: 20px 5% 20px 5%; /* Ajustando o preenchimento do conteúdo do menu */
+  }
+
+  .caixa__texto1 {
+    padding: 20px 0% 20px 2%; /* Ajustando a caixa de texto 1 */
+  }
+
+  .caixa_texto2 {
+    padding: 50px 0% 50px 5%; /* Ajustando a caixa de texto 2 */
+  }
+
+  .rodape {
+    margin-top: 3em; /* Ajustando a margem superior do rodapé */
+  }
+}
+
+/* Estilos para dispositivos com largura de tela até 330px */
+@media only screen and (max-width: 330px) {
+  .logo {
+    width: 100px; /* Reduzindo ainda mais o tamanho da logo */
+    height: 25px;
+  }
+
+  .cabecalho__menu__link {
+    font-size: 0.9rem; /* Reduzindo um pouco mais o tamanho da fonte do menu */
+  }
+
+  .menu-position {
+    padding: 20px 3% 20px 3%; /* Ajustando o preenchimento do conteúdo do menu */
+  }
+
+  .caixa__texto1 {
+    padding: 20px 0% 20px 2%; /* Ajustando a caixa de texto 1 */
+  }
+
+  .caixa_texto2 {
+    padding: 50px 0% 50px 3%; /* Ajustando a caixa de texto 2 */
+  }
+
+  .rodape {
+    margin-top: 2em; /* Ajustando a margem superior do rodapé */
+  }
+}

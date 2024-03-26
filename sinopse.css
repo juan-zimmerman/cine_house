@@ -194,37 +194,6 @@ margin: 10px 0 0 20px;
     margin-top: 10em;
 }
 
-/* código referente a pagina historia.html*/
-
-.cabecalho__menu__historia{
-    display: flex;
-    gap: 80px;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-    padding: 10px;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9;
-    background-color: var(--cor-header);
-}
-
-.imagem__direita {
-    display: block;
-    text-align: direita;
-    margin: 0.5rem auto;
-    border-radius: 27px;
-}
-
-.imagem__footer {
-    display: block;
-    text-align: center;
-    margin: 0.5rem auto;
-    border-radius: 15px;
-    width: 70%;
-    height: 50%;
-}
 
 a:link {
     text-decoration: none;
