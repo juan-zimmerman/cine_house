@@ -84,6 +84,7 @@ body{
     padding: 20px 50% 20px 50px;
     text-decoration: none;
 }
+
   
   .formulario_titulo{
     text-align: center;
@@ -139,106 +140,91 @@ body{
   }
 
   .rodape{
-    font-size: 1em;
     text-align: center;
-    margin-top: 10em;
+    margin-top: 5em;
+    
   }
 
 
-
-
-  
-  /* Estilos para dispositivos com largura de tela até 768px */
-@media only screen and (max-width: 768px) {
-  .cabecalho__menu {
-    gap: 20px; /* Reduzindo o espaçamento entre os itens do menu */
+  /* Estilos para dispositivos com largura de tela até 330px */
+@media only screen and (max-width: 330px) {
+  .formulario_titulo {
+      font-size: 0.5rem; /* Reduzindo o tamanho do título */
+      margin-right: 0.5em;
+      margin-top: 25%;
   }
 
-  .logo {
-    width: 150px; /* Reduzindo o tamanho da logo */
-    height: 40px;
+  .formulario {
+      margin-right: 50%;
   }
-
-  .cabecalho__menu__link {
-    font-size: 1rem; /* Reduzindo o tamanho da fonte do menu */
-    margin-top: 0.5%; /* Ajustando a margem superior */
-  }
-
-  .menu-position {
-    padding: 20px 10% 20px 10px; /* Ajustando o preenchimento do conteúdo do menu */
-  }
+  .subtitulo_h3 {
+    margin-right: 30%;
+}
 
   .caixa__texto1 {
-    padding: 20px 0% 20px 2%; /* Ajustando a caixa de texto 1 */
+      padding: 15px 0% 15px 3%; /* Ajustando o padding */
+      margin-right: 30%;
   }
 
   .caixa_texto2 {
-    padding: 50px 0% 50px 10%; /* Ajustando a caixa de texto 2 */
+      padding: 30px 0% 30px 15%; /* Ajustando o padding */
+      margin-right: 30%;
   }
 
-  .rodape {
-    margin-top: 5em; /* Ajustando a margem superior do rodapé */
+  .nome__sobrenome {
+      font-size: 16px; /* Reduzindo o tamanho da fonte */
   }
 }
 
 /* Estilos para dispositivos com largura de tela até 480px */
 @media only screen and (max-width: 480px) {
-  .cabecalho__menu {
-    flex-direction: column; /* Alterando a direção do menu para vertical */
-    align-items: center; /* Centralizando os itens do menu */
-    gap: 10px; /* Reduzindo o espaçamento entre os itens do menu */
+  .formulario_titulo {
+      font-size: 2%; /* Ajustando o tamanho do título */
+      margin-right: 0.2em;
+    
   }
 
-  .cabecalho__menu__link {
-    margin-top: 0; /* Removendo a margem superior dos links do menu */
-  }
-
-  .logo {
-    width: 120px; /* Reduzindo ainda mais o tamanho da logo */
-    height: 30px;
-  }
-
-  .menu-position {
-    padding: 20px 5% 20px 5%; /* Ajustando o preenchimento do conteúdo do menu */
+  .subtitulo_h3 {
+      margin-right: 0.5em;
   }
 
   .caixa__texto1 {
-    padding: 20px 0% 20px 2%; /* Ajustando a caixa de texto 1 */
+      padding: 20px 0% 20px 5%; /* Ajustando o padding */
+      margin-right: 0.5em;
   }
 
   .caixa_texto2 {
-    padding: 50px 0% 50px 5%; /* Ajustando a caixa de texto 2 */
+      padding: 40px 0% 40px 20%; /* Ajustando o padding */
+      margin-right: 0.5em;
   }
 
-  .rodape {
-    margin-top: 3em; /* Ajustando a margem superior do rodapé */
+  .nome__sobrenome {
+      font-size: 18px; /* Ajustando o tamanho da fonte */
+  }
+
+  .integrantes {
+    margin-right: 0.5em;
   }
 }
 
-/* Estilos para dispositivos com largura de tela até 330px */
-@media only screen and (max-width: 330px) {
-  .logo {
-    width: 100px; /* Reduzindo ainda mais o tamanho da logo */
-    height: 25px;
+/* Estilos para dispositivos com largura de tela até 768px */
+@media only screen and (max-width: 768px) {
+  .formulario_titulo {
+      font-size: 2em; /* Ajustando o tamanho do título */
   }
 
-  .cabecalho__menu__link {
-    font-size: 0.9rem; /* Reduzindo um pouco mais o tamanho da fonte do menu */
+  .formulario {
+      margin: 3em; /* Ajustando a margem */
   }
 
-  .menu-position {
-    padding: 20px 3% 20px 3%; /* Ajustando o preenchimento do conteúdo do menu */
+  .container {
+      flex-direction: column; /* Alterando a direção do container para coluna */
+      align-items: center; /* Centralizando os itens */
   }
 
-  .caixa__texto1 {
-    padding: 20px 0% 20px 2%; /* Ajustando a caixa de texto 1 */
-  }
-
-  .caixa_texto2 {
-    padding: 50px 0% 50px 3%; /* Ajustando a caixa de texto 2 */
-  }
-
-  .rodape {
-    margin-top: 2em; /* Ajustando a margem superior do rodapé */
+  .integrantes {
+      margin-top: 2em; /* Ajustando a margem superior */
   }
 }
+
+
