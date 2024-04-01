@@ -215,9 +215,10 @@ a:visited {
     body { width:400px; }
     }
                
-    @media screen and (min-width: 380px) {
+    @media screen and (max-width: 768px) {
       .imagem__galeria {
           grid-template-columns: 1fr 1fr;
+          width: 2%;
   
       }
       }
@@ -228,9 +229,10 @@ a:visited {
       }
       }
 
-      @media screen and (min-width: 380px) {
+      @media screen and (max-width: 768px) {
         .imagem__galeria__individual {
-            width: 20%;
+            width: 2%;
+            height: 2%;
         }
         }
       
