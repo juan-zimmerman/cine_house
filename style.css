@@ -193,34 +193,6 @@ body{
 
 /* fim do codigo pagina inicial*/
 
-/*imagens filmes*/
-
-#img_div{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 80px;
-  margin-left: 110px;
-}
-
-.img{
-  width: 12em;
-  display: grid;
-  grid-template-columns: 1fr;
-  margin-left: 0;
-  margin-top: 3rem;
-  box-shadow: 10px 10px 20px black;
-  border-radius: 20px;
-  transition: transform 0.5s;
-  transform: scale(1);
-}
-
-.img:hover{
-  transform: scale(1.1);
-  opacity: 0.9;
-}
-
-/*fim imagens filmes*/
-
 
 .rodape{
   text-align: center;

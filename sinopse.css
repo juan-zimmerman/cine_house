@@ -203,3 +203,34 @@ a:link {
 a:visited {
     color: black;
   }
+
+
+
+
+
+
+
+        
+  @media only screen and (max-device-width: 700px) {
+    body { width:400px; }
+    }
+               
+    @media screen and (min-width: 380px) {
+      .imagem__galeria {
+          grid-template-columns: 1fr 1fr;
+  
+      }
+      }
+    
+    @media screen and (min-width: 992px) {
+      .imagem__galeria {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      }
+
+      @media screen and (min-width: 380px) {
+        .imagem__galeria__individual {
+            width: 20%;
+        }
+        }
+      
