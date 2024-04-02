@@ -124,6 +124,9 @@ body{
     grid-template-columns: 1fr;
 }
 
+
+
+
 .terceiro {
     font-family: var(--fonte-padrao);
     padding: 2% 1%;
@@ -146,6 +149,7 @@ body{
     border-radius: 15px;
     margin: 18px;
 }  
+
 
 .trailer {
     display: contents;
@@ -187,7 +191,6 @@ margin: 10px 0 0 20px;
     text-align: center;
 }
 
-
 .rodape{
     font-size: 1em;
     text-align: center;
@@ -206,33 +209,118 @@ a:visited {
 
 
 
+/* Media query para dispositivos menores */
 
-
-
-
-        
-  @media only screen and (max-device-width: 700px) {
+@media only screen and (max-device-width: 700px) {
     body { width:400px; }
     }
-               
-    @media screen and (max-width: 768px) {
-      .imagem__galeria {
-          grid-template-columns: 1fr 1fr;
-          width: 2%;
-  
-      }
-      }
+
+@media only screen and (max-width: 768px) {
+    .primeiro {
+        display: block;
+        text-align: center;
+    }
     
-    @media screen and (min-width: 992px) {
-      .imagem__galeria {
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-      }
+    .primeiro img {
+        width: 70%; 
+        margin: 0 auto 20px; 
+        
+    }
+    
+    .titulo__filme {
+        font-size: 30px; 
+        
+    }
+    
+    .paragrafo__filme {
+        font-size: 16px; 
+       
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .divisoria__segundo {
+        grid-template-columns: 1fr 1fr;
+    
+        text-align: justify;
+    }
+
+    .sinopse {
+        font-size: x-small;
+        
+    }
+    .divisoria__primeira{
+        
+        text-align: justify;
+    }
+    .sinopse__titulo {
+        font-size: small;
+        margin-top: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .imagem__galeria {
+        grid-template-columns: 1fr 1fr;
+        margin-right: 5%;
+    }
+
+    .img__galeria__individual {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: auto;
+        margin: 15px; 
+        justify-content: space-around;
+        border-radius: 8px;
+    }
+    .titulo__galeria {
+        font-size: small;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .video {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 500px;
+        border-radius: 12px;
+        
+    }
+    .titulo__trailer {
+        font-size: small;
+        
       }
 
-      @media screen and (max-width: 768px) {
-        .imagem__galeria__individual {
-            width: 2%;
-            height: 2%;
-        }
-        }
+    .midia__youtube,
+    .midia__spotify__netflix {
+        display: block;
+        margin-top: 8%;
+    }
+
+    .spotify {
+        margin: 10px auto;
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+
+    .netflix {
+        text-align: center;
+        width: 50%;
+        
+        
+    }
+
+    .rodape{
+        text-align: center;
+        margin-top: 1em;
+    }
+}
+        
+ 
+            
       
