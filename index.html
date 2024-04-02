@@ -9,22 +9,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    
     <link rel="icon" type="image/png" href="imagens/icone_barra.ico">
+    <script defer src="paginas/app.js"></script>
     <title>Cine House</title>
 </head>
 
 <body>
 
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a href="index.html"><img class="logo" src="imagens/contato/logo1.png"></a>
-            <a class="cabecalho__menu__link active" href="index.html">Inicio</a>
-            <a class="cabecalho__menu__link" href="paginas/filmes.html">Filmes</a>
-            <a class="cabecalho__menu__link" href="paginas/historia.html">História</a>
-            <a class="cabecalho__menu__link" href="paginas/diretores.html">Diretores</a>
-            <a class="cabecalho__menu__link" href="paginas/contato.html">Contato</a>
-        </nav>
+        <nav class="nav">
+          <a href="../index.html"><img class="logo" src="../imagens/contato/logo1.png"></a>
+          <button class="hamburger"></button>
+          <ul class="nav-list">
+            <li><a class="cabecalho__menu__link active" href="../index.html">Inicio</a></li>
+            <li><a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a></li>
+            <li><a class="cabecalho__menu__link" href="historia.html">História</a></li>
+            <li><a class="cabecalho__menu__link" href="diretores.html">Diretores</a></li>
+            <li><a class="cabecalho__menu__link" href="contato.html">Contato</a></li>
+          </ul>
+          </nav>
 
         <img src="imagens/homepage/header-homepage.png" alt="imagem do filme Chihiro"
             class="header__home">
