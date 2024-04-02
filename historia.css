@@ -119,76 +119,6 @@ body{
     transform: scale(1.05);
 }
 
-/* responsividade do menu */
-
-/* Estilos para dispositivos com largura de tela até 768px */
-@media only screen and (max-width: 768px) {
-    .logo {
-        width: 120px; /* Reduzindo um pouco o tamanho da logo */
-        height: 30px;
-        text-align: center;
-    }
-
-    .cabecalho__menu__link {
-        font-size: 1rem; /* Mantendo o tamanho da fonte do menu */
-        text-align: center;
-        margin: 10px; /* Aumentando um pouco a margem entre os itens do menu */
-    }
-    .cabecalho__menu {
-        flex-direction: row; /* Voltando a direção do menu para horizontal */
-        justify-content: center; /* Centralizando os itens do menu */
-        gap: 20px; /* Aumentando o espaçamento entre os itens do menu */
-        margin-bottom: 20px; /* Reduzindo um pouco a margem inferior do menu */
-    }
-}
-
-
-/* Estilos para dispositivos com largura de tela até 480px */
-@media only screen and (max-width: 480px) {
-    .logo {
-        width: 90px; /* Reduzindo ainda mais o tamanho da logo */
-        height: 20px;
-        text-align: center;
-    }
-
-    .cabecalho__menu__link {
-        font-size: 0.9rem; /* Reduzindo um pouco mais o tamanho da fonte do menu */
-        text-align: center;
-        margin: 2%;
-    }
-    .cabecalho__menu {
-        flex-direction: column; /* Alterando a direção do menu para vertical */
-        align-items: center; /* Centralizando os itens do menu */
-        gap: 0px; /* Reduzindo o espaçamento entre os itens do menu */
-        margin-bottom: 30%;
-    }
-}
-
-
-/* Estilos para dispositivos com largura de tela até 330px */
-@media only screen and (max-width: 330px) {
-    .logo {
-        width: 90px; /* Reduzindo ainda mais o tamanho da logo */
-        height: 20px;
-        text-align: center;
-    }
-
-    .cabecalho__menu__link {
-        font-size: 0.9rem; /* Reduzindo um pouco mais o tamanho da fonte do menu */
-        text-align: center;
-        margin: 2%;
-    }
-    .cabecalho__menu {
-        flex-direction: column; /* Alterando a direção do menu para vertical */
-        align-items: center; /* Centralizando os itens do menu */
-        gap: 0px; /* Reduzindo o espaçamento entre os itens do menu */
-        margin-bottom: 30%;
-    }
-}
-
-
-
-/* fim da responsividade do menu*/
 
 /* conteudo da pagina */
 
@@ -217,87 +147,22 @@ body{
 }
 
 
-
-/* topo da pagina responsividade */
-/* Estilos para dispositivos com largura de tela até 768px */
-@media only screen and (max-width: 768px) {
-    .titulo__filme {
-        font-size: 30px; /* Ajustando o tamanho da fonte para telas médias */
-    }
-
-    .paragrafo__filme {
-        font-size: 16px; /* Ajustando o tamanho da fonte para telas médias */
-    }
-    .imagem__titulo {
-        width: 20rem; /* Ajustando o tamanho da imagem para telas médias */
-        margin: 0 auto; /* Centralizando a imagem */
-        margin-top: 5%; /* Ajustando o espaçamento superior */
-        margin-bottom: 5%; /* Ajustando o espaçamento inferior */
-    }
-}
-
-/* Estilos para dispositivos com largura de tela até 480px */
-@media only screen and (max-width: 480px) {
-    .primeiro {
-        display: block;
-    }
-    .titulo__filme {
-        font-size: 25px; /* Ajustando o tamanho da fonte para telas menores */
-        margin-top: 10%;
-    }
-
-    .paragrafo__filme {
-        font-size: 14px; /* Ajustando o tamanho da fonte para telas menores */
-    }
-    .imagem__titulo {
-        width: 17rem; /* Ajustando o tamanho da imagem para telas menores */
-        margin: 0 auto; /* Centralizando a imagem */
-        margin-top: 11rem; /* Ajustando o espaçamento superior */
-        margin-bottom: 5%; /* Ajustando o espaçamento inferior */
-    }
-}
-
-
-/* Estilos para dispositivos com largura de tela até 330px */
-@media only screen and (max-width: 330px) {
-
-    .primeiro {
-        display: block;
-    }
-    .titulo__filme {
-        font-size: 20px; /* Reduzindo ainda mais o tamanho da fonte */
-        margin-top: 2rem;
-        
-    }
-
-    .paragrafo__filme {
-        font-size: 12px; /* Reduzindo ainda mais o tamanho da fonte */
-    }
-    .imagem__titulo {
-        width: 15rem;
-        margin-top: 10.5rem;
-        margin-left: 5%;
-        margin-bottom: 5%;
-    }
-}
-/* fim da responsividade do topo da pagina*/
-
 /* conteudo da pagina */
 
-/* Estilos base */
 .sinopse,
 .sinopse1 {
     font-size: 20px;
     font-family: var(--fonte-texto);
     padding: 2%;
     margin: 0;
+    text-align: justify;
 }
 
 .divisoria__segundo {
-    display: grid; /* Alterando para um layout de grid */
-    grid-template-columns: 1fr; /* Apenas uma coluna */
-    gap: 2%; /* Espaçamento entre os itens */
-    padding: 0% 1%; /* Preenchimento nas laterais */
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 2%; 
+    padding: 0% 1%; 
 }
 
 .sinopse__titulo,
@@ -308,60 +173,6 @@ body{
     padding: 3%;
     margin: 0;
 }
-
-/* Estilos para dispositivos com largura de tela até 768px */
-@media only screen and (max-width: 768px) {
-    .sinopse__titulo,
-    .sinopse__titulo1 {
-        font-size: 20px; /* Ajustando o tamanho da fonte para telas médias */
-        margin-top: 5%; /* Ajustando o espaçamento superior */
-    }
-
-    .sinopse,
-    .sinopse1 {
-        padding: 1%; /* Ajustando o preenchimento */
-        font-size: 16px; /* Ajustando o tamanho da fonte para telas médias */
-        margin: 5% auto; /* Centralizando o texto */
-        text-align: justify; /* Justificando o texto */
-    }
-}
-
-/* Estilos para dispositivos com largura de tela até 480px */
-@media only screen and (max-width: 480px) {
-    .sinopse__titulo,
-    .sinopse__titulo1 {
-        font-size: 18px; /* Ajustando o tamanho da fonte para telas menores */
-        margin-top: 5%; /* Ajustando o espaçamento superior */
-    }
-
-    .sinopse,
-    .sinopse1 {
-        padding: 1%; /* Ajustando o preenchimento */
-        font-size: 14px; /* Ajustando o tamanho da fonte para telas menores */
-        margin: 8%; /* Centralizando o texto */
-        text-align: justify; /* Justificando o texto */
-    }
-}
-
-
-/* Estilos para dispositivos com largura de tela até 330px */
-@media only screen and (max-width: 330px) {
-    .sinopse__titulo,
-    .sinopse__titulo1 {
-        font-size: 17px; /* Reduzindo ainda mais o tamanho da fonte */
-        margin-top: 10%;
-    }
-
-    .sinopse,
-    .sinopse1 {
-        padding: 0.5%; /* Reduzindo ainda mais o preenchimento */
-        font-size: 17px;
-        margin: 10%;
-        text-align: justify;
-    }
-}
-
-
 
 /* fim dos primeiros textos*/
 
@@ -379,11 +190,12 @@ body{
     font-family: var(--fonte-texto);
     padding: 2%;
     margin: 0;
+    text-align: justify;
 }
 
 .divisoria__terceiro {
     display: grid;
-    grid-template-columns: 1fr; /* Apenas uma coluna */
+    grid-template-columns: 1fr;
     gap: 2%;
     padding: 0% 1%;
 }
@@ -399,69 +211,16 @@ body{
 
 .imagem__direita {
     display: block;
-    max-width: 100%; /* Garantindo que a imagem não ultrapasse o tamanho do contêiner */
+    max-width: 100%; 
     margin: 0.5rem auto;
     margin-top: 90px;
     border-radius: 27px;
-}
-
-/* Estilos para dispositivos com largura de tela até 768px */
-@media only screen and (max-width: 768px) {
-    .terceiro {
-        grid-template-columns: 1fr; /* Alterando para uma coluna */
-    }
-
-    .imagem__direita {
-        width: 100%; /* Fazendo a imagem ocupar toda a largura do contêiner */
-        margin-top: 20px; /* Adicionando espaço entre a imagem e o texto */
-    }
-}
-
-/* Estilos para dispositivos com largura de tela até 480px */
-@media only screen and (max-width: 480px) {
-    .sinopse3 {
-        font-size: 14px; /* Reduzindo o tamanho da fonte */
-        margin-top: 10%;
-        text-align: justify;
-        margin-bottom: 10%;
-    }
-    .sinopse__titulo3 {
-        text-align: center;
-        margin-top: 30%;
-        font-size: 18px;
-    }
-}
-
-/* Estilos para dispositivos com largura de tela até 330px */
-@media only screen and (max-width: 330px) {
-    .sinopse3,
-    .sinopse__titulo3 {
-        font-size: 17px; /* Reduzindo ainda mais o tamanho da fonte */
-        margin-top: 50%;
-    }
-    .sinopse3{
-        font-size: 17px; /* Reduzindo ainda mais o tamanho da fonte */
-        margin-top: 4%;
-        text-align: justify;
-        margin: 0;
-    }
-    .imagem__direita {
-        width: 100%; /* Fazendo a imagem ocupar toda a largura do contêiner */
-        margin-top: 70px; /* Adicionando espaço entre a imagem e o texto */
-    }
 }
 
 
 
 
 /* fim dos textos do meio da pagina - mononoke */
-
-  
-.titulo__galeria {
-    font-size: 25px;
-}
-
-/* ultimos textos da pagina */
 
 .quarto {
     align-items: center;
@@ -474,7 +233,9 @@ body{
     font-size: 20px;
     font-family: var(--fonte-texto);
     padding: 2%;
-    margin: 0;
+    margin-left: -11%;
+    margin-right: -11%;
+    text-align: justify;
 }
 
 
@@ -487,57 +248,22 @@ body{
 }
 
 
-/* Estilos para dispositivos com largura de tela até 480px */
-@media only screen and (max-width: 480px) {
-    
-    .sinopse__titulo4 {
-        font-size: 18px; /* Reduzindo o tamanho da fonte */
-        margin-top: 4rem;
-    }
-
-    .sinopse4 {
-        padding: 1%; /* Reduzindo o preenchimento */
-        font-size: 14px;
-        text-align: justify;
-        margin-top: 3rem;
-    }
-}
-
-/* Estilos para dispositivos com largura de tela até 330px */
-@media only screen and (max-width: 330px) {
-    
-    .sinopse__titulo4 {
-        font-size: 17px; /* Reduzindo ainda mais o tamanho da fonte */
-        margin-top: 40%;
-    }
-
-    
-    .sinopse4 {
-        padding: 0.5%; /* Reduzindo ainda mais o preenchimento */
-        font-size: 17px;
-        margin: 2%;
-        margin-top: 15%;
-        text-align: justify;
-    }
-}
-
-
-
 
 .imagem__footer {
     display: block;
     align-items: center;
     text-align: center;
     margin: 0.5rem auto;
-    width: 70%;
-    height: 50%;
+    width: 95%;
+    height: 30%;
+    border-radius: 27px;
 }
 
 /* Estilos para dispositivos com largura de tela até 768px */
 @media only screen and (max-width: 768px) {
     .imagem__footer {
-        width: 80%; /* Reduz a largura da imagem para 80% do contêiner pai */
-        height: auto; /* Mantém a altura proporcional */
+        width: 80%; 
+        height: auto;
     }
 
     .hamburger {
@@ -617,17 +343,123 @@ body{
       }
 }
 
-/* Estilos para dispositivos com largura de tela até 480px */
-@media only screen and (max-width: 480px) {
-    .imagem__footer {
-        width: 90%; /* Reduz ainda mais a largura da imagem para 90% do contêiner pai */
+
+
+
+/* topo da pagina responsividade */
+
+@media only screen and (max-width: 768px) {
+    .titulo__filme {
+        font-size: 30px;
+    }
+
+    .paragrafo__filme {
+        font-size: 16px; 
+    }
+    .imagem__titulo {
+        width: 20rem; 
+        margin: 0 auto; 
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }
 
-/* Estilos para dispositivos com largura de tela até 330px */
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 768px) {
+    .primeiro {
+        display: block;
+    }
+    .titulo__filme {
+        font-size: 25px; 
+        margin-top: 10%;
+    }
+
+    .paragrafo__filme {
+        font-size: 14px; 
+        margin-bottom: 10%;
+    }
+    .imagem__titulo {
+        width: 17rem; 
+        margin: 0 auto; 
+        margin-top: 5rem;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sinopse__titulo,
+    .sinopse__titulo1 {
+        font-size: 20px; 
+        margin-top: -5%; 
+    }
+
+    .sinopse,
+    .sinopse1 {
+        padding: 1%; 
+        font-size: 18px; 
+        margin: 8%; 
+        margin-top: 2%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .terceiro {
+        grid-template-columns: 1fr;
+    }
+
+    .imagem__direita {
+        width: 100%; 
+        margin-top: 20px; 
+    }
+
+    .sinopse3 {
+        padding: 1%; 
+        font-size: 10px; 
+        margin: 0; 
+        text-align: justify;
+    }
+
+    .sinopse__titulo3 {
+        text-align: center;
+        margin-top: 30%;
+        font-size: 20px;
+    }
+
+    .sinopse3{
+        font-size: 18px;
+        margin-top: 4%;
+        text-align: justify;
+        margin: -2%;
+    }
+
+    .imagem__direita {
+        width: 100%; 
+        margin-top: 70px; 
+        margin-bottom: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .sinopse__titulo4 {
+        text-align: center;
+        margin-top: 25%;
+        font-size: 20px;
+        margin-bottom: 12%;
+    }
+
+
+    .sinopse4 {
+        font-size: 18px;
+        text-align: justify;
+        margin: -2%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .imagem__footer {
-        width: 100%; /* Reduz ainda mais a largura da imagem para ocupar todo o espaço disponível */
+        width: 80%; 
+        border-radius: 5%;
     }
 }
 .rodape{

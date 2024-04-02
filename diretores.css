@@ -196,6 +196,7 @@ summary::after  {
   .div__diretor {
     grid-template-columns: 1fr;
     gap: 0; 
+    margin-top: 15%;
   }
 
   .diretor1 {
