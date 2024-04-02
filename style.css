@@ -94,6 +94,31 @@ body{
 .header__home {
   width: 100vw;
  }
+ /*imagens filmes*/
+
+#img_div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  margin-left: 110px;
+}
+
+.img{
+  width: 12em;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 0;
+  margin-top: 3rem;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 20px;
+  transition: transform 0.5s;
+  transform: scale(1);
+}
+
+.img:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+}
 
 
  /* corpo da pagina - homepage*/
@@ -190,8 +215,97 @@ body{
   transition: transform 0.5s;
 }  
 
+/* inicio da responsividade da pagina inicial*/
 
-/* fim do codigo pagina inicial*/
+@media screen and (max-width: 768px) {
+  #img_div {
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+    width: 80%;
+    margin-left: 41px;
+    margin-top: 5%;
+  }
+  }
+
+  @media screen and (max-width: 768px) {
+    .img {
+      width: 100%;
+    }
+    }
+
+
+@media screen and (min-width: 992px) {
+  #img_div {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  }
+  }
+
+@media only screen and (max-width: 768px) {
+  .imagem__galeria__homepage {
+      grid-template-columns: 1fr;
+      margin-right: 20%;
+  }
+
+  .img__galeria__individual__homepage {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      padding: auto;
+      margin: 15px; 
+      justify-content: space-between;
+      border-radius: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .botao__filmes {
+    margin: 1em auto;
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "txt-center"
+      "img-right"
+      "botao";
+  }
+
+  .home_txt_central {
+    width: auto;
+    margin-left: 10%;
+  }
+
+  .titulo__home{
+    font-size:large;
+
+  }
+  .conteudo__home {
+    font-size: smaller;
+    text-align: justify;
+    margin-right: 15%;
+}
+
+  .home_img_direita {
+    margin: 10%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .tamanho__imagem__direita {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .botao__historia {
+    margin: 1em auto;
+    margin-top: -5%;
+    margin-bottom: 50%;
+  }
+}
+
+/* fim do codigo e responsividade da pagina inicial*/
 
 
 .rodape{
