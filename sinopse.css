@@ -249,7 +249,7 @@ a:visited {
     }
 
     .sinopse {
-        font-size: x-small;
+        font-size: small;
         
     }
     .divisoria__primeira{
@@ -257,7 +257,7 @@ a:visited {
         text-align: justify;
     }
     .sinopse__titulo {
-        font-size: small;
+        font-size: medium;
         margin-top: 10%;
     }
 
@@ -270,16 +270,16 @@ a:visited {
     }
 
     .img__galeria__individual {
-        width: 100%;
+        width: 90%;
         max-width: 100%;
         height: auto;
         padding: auto;
         margin: 15px; 
-        justify-content: space-around;
+        justify-content: space-between;
         border-radius: 8px;
     }
     .titulo__galeria {
-        font-size: small;
+        font-size: medium;
         margin-top: 10%;
     }
 }
@@ -294,7 +294,7 @@ a:visited {
         
     }
     .titulo__trailer {
-        font-size: small;
+        font-size: medium;
         
       }
 
