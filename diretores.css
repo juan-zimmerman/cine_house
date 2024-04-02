@@ -144,5 +144,29 @@ summary::after  {
 .rodape{
   font-size: 1em;
   text-align: center;
-  margin-top: 10em;
+  margin-top: 5em;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .div__diretor {
+    grid-template-columns: 1fr;
+    gap: 0; 
+  }
+
+  .diretor1 {
+    grid-template-columns: 100%; 
+    padding: 10% 5%;
+  }
+
+  .nome__diretor {
+    font-size: large;
+  }
+
+  .imagem__diretor {
+    width: 80%; 
+    margin: auto;
+  }
 }
