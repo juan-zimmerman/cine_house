@@ -254,6 +254,10 @@ a:visited {
     }
 
 @media only screen and (max-width: 768px) {
+
+  .imagem__cabecalho {
+  margin-top: 17%;
+  }
     .primeiro {
         display: block;
         text-align: center;

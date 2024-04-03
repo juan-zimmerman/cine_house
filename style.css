@@ -267,6 +267,10 @@ a {
   }
   }
 
+  .header__home {
+    margin-top: 18%;
+   }
+
   @media screen and (max-width: 768px) {
     .img {
       width: 100%;
