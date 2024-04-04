@@ -211,6 +211,11 @@ a {
       pointer-events: none;
     }
     
+    .pesquisa{
+      
+  margin-top: 20%;
+    }
+
     .nav-list a {
       font-size: 24px;
       opacity: 0;
