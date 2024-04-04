@@ -9,64 +9,88 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="responsividade-imagens.css">
     <link rel="icon" type="image/png" href="imagens/icone_barra.ico">
+    <script defer src="paginas/app.js"></script>
     <title>Cine House</title>
 </head>
 
 <body>
 
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a href="index.html"><img class="logo" src="imagens/contato/logo1.png"></a>
-            <a class="cabecalho__menu__link active" href="index.html">Inicio</a>
-            <a class="cabecalho__menu__link" href="paginas/filmes.html">Filmes</a>
-            <a class="cabecalho__menu__link" href="paginas/historia.html">História</a>
-            <a class="cabecalho__menu__link" href="paginas/diretores.html">Diretores</a>
-            <a class="cabecalho__menu__link" href="paginas/contato.html">Contato</a>
-        </nav>
-        <img src="../imagens/pagina-inicial/pagina-inicial-header.png" alt="imagem do filme Chihiro"
+        <nav class="nav">
+          <a href="index.html"><img class="logo" src="./imagens/contato/logo1.png"></a>
+          <button class="hamburger"></button>
+          <ul class="nav-list">
+            <li><a class="cabecalho__menu__link active" href="index.html">Inicio</a></li>
+            <li><a class="cabecalho__menu__link" href="paginas/filmes.html">Filmes</a></li>
+            <li><a class="cabecalho__menu__link" href="paginas/historia.html">História</a></li>
+            <li><a class="cabecalho__menu__link" href="paginas/diretores.html">Diretores</a></li>
+            <li><a class="cabecalho__menu__link" href="paginas/contato.html">Contato</a></li>
+          </ul>
+          </nav>
+
+        <img src="imagens/homepage/header-homepage.png" alt="imagem do filme Chihiro"
             class="header__home">
     </header>
 
     <body>
+    <div id="img_div">
+            <a href="paginas/o_serviço_de_entregas.html"><img class="img" src="imagens/homepage/poster1.png" alt="O Serviço de Entregas da Kiki (1989)"></a>
+            <a href="paginas/menino-garca.html"><img class="img" src="imagens/homepage/poster2.png" alt="O menino e a garca (2024)"></a>
+            <a href="paginas/meu_amigo_totoro.html"><img class="img" src="imagens/homepage/poster3.png" alt="Meu Amigo Totoro (1988)"></a>
+            <a href="paginas/castelo-animado.html"><img class="img" src="imagens/homepage/poster4.png" alt="Castelo Animado (2004)"></a>
+            <a href="paginas/chihiro.html"><img class="img" src="imagens/homepage/poster5.png" alt="A viagem de Chihiro (2001)"></a>
+            <a href="paginas/princesa-mononoke.html"><img class="img" src="imagens/homepage/poster6.png" alt="Princesa Mononoke (1997)"></a>
+            </div>
 
-        <main class="container">
-                <div class="home__img__esquerda">
-                    <img src="../imagens/pagina-inicial/home-imagem1.png" class="imagem__esquerda"
-                        alt="imagem do filme Castelo Animado">
+<div class="botao__filmes">
+    <a href="https://juan-zimmerman.github.io/cine_house/paginas/filmes.html">
+        <img src="imagens/homepage/botao-filmes.png"></a>
+    </div>
+
+
+
+            <section class="container">
+            <div class="home_txt_central">
+                <h3 class="titulo__home">O que é o estúdio?</h3>
+                <h6 class="conteudo__home">
+                    O Studio Ghibli é um estúdio de animação japonês, sediado em Koganei, Tóquio. Fundado em 1985, o estúdio já produziu 21 longas de animação,
+                    sendo o primeiro O Castelo no Céu (1986) e o mais recente O Menino e a Garça (2024). <br> <br>
+                    O Studio Ghibli foi fundado 
+                    em 1985 e é responsável por 
+                    uma infinidade de filmes de 
+                    sucesso que até hoje 
+                    marcam o coração dos fãs. <br> <br>
+                    Seja Princesa Mononoke, 
+                    Meu Amigo Totoro ou A 
+                    Viagem de Chihiro é 
+                    impossível não reconhecer o 
+                    estilo artístico impecável do 
+                    estúdio.</h6>
+            </div>
+
+            <div class="botao__historia"><a href="https://juan-zimmerman.github.io/cine_house/paginas/historia.html"><img src="imagens/homepage/botao-historia.png"></a></div>
+
+            <div class="home_img_direita">
+                <img class="tamanho__imagem__direita" src="imagens/homepage/imagem-direita.png" alt="imagem do Meu Amigo Totoro"></a>
+            </div>
+        
+        </section>
+
+        <div class="imagem__galeria__homepage">
+            <img class="img__galeria__individual__homepage" src="imagens/homepage/galeria-rodape1.png"
+                alt="fotos do tiradas do filme O Mundo dos Pequeninos">
+            <img class="img__galeria__individual__homepage" src="imagens/homepage/galeria-rodape2.png"
+                alt="fotos do tiradas do filme Castelo Animado">
+            <img class="img__galeria__individual__homepage" src="imagens/homepage/galeria-rodape3.png"
+                alt="fotos do tiradas do filme Nausicaä do Vale do Vento">
+            <img class="img__galeria__individual__homepage" src="imagens/homepage/galeria-rodape4.png"
+                alt="fotos do tiradas do filme Servico de Entregas da Kiki">
                 </div>
-
-                <div class="home__txt__central">
-                    <h3 class="titulo__home">O que é o <br> estúdio?</h3>
-                    <h2 class="conteudo__home"><br>O Studio Ghibli foi fundado
-                        em 1985 e é responsável por
-                        uma infinidade de filmes de
-                        sucesso que até hoje
-                        marcam o coração dos fãs.
-                        Seja Princesa Mononoke,
-                        Meu Amigo Totoro ou A
-                        Viagem de Chihiro é
-                        impossível não reconhecer o
-                        estilo artístico impecável do
-                        estúdio.</h2>
-                </div>
-
-                <div class="imagem__direita"><img src="../imagens/pagina-inicial/home-imagem2.png" 
-                    alt="imagem do filme Totoro">
-                </div>
-
-                <div class="imagem__direita__bottom">
-                    <img src="../imagens/pagina-inicial/home-imagem3.png" class="imagem__bottom"
-                        alt="imagem do filme Nausicaa">
-                </div>
-        </main>
-
-
 
         <footer class="rodape">
             <a
                 href="https://www.coderhouse.com.br/?pipe_source=google&pipe_medium=cpc&pipe_campaign=0&gad_source=1&gclid=Cj0KCQiAw6yuBhDrARIsACf94RXDS97Ho69j13X4dQ0l-uPLnFkvsC_4cWnuFfU_gXgSmfX1FJJQdQEaAn7DEALw_wcB"><img
-                    src="../imagens/coderhouse-logo.png" alt="Logo coderhouse"></a>
+                    src="imagens/coderhouse-logo.png" alt="Logo coderhouse"></a>
         </footer>
     </body>

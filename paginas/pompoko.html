@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../sinopse.css">
-    <link rel="stylesheet" href="../responsividade-imagens.css">
     <link rel="shortcut icon" type="image/png" href="../imagens/icone_barra.ico">
+    <script defer src="app.js"></script>
     <title>Pom Poko: A Grande Batalha dos Guaxinins</title>
 </head>
 
 <body>
     <header>
-        <img src="../imagens/pompoko/headerpompoko.png" alt="imagem do filme Pom Poko: A Grande Batalha dos Guaxinins" class="imagem__cabecalho">
-        <nav class="cabecalho__menu">
+        <nav class="nav">
             <a href="../index.html"><img class="logo" src="../imagens/contato/logo1.png"></a>
-            <a class="cabecalho__menu__link" href="../index.html">Inicio</a>
-            <a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a>
-            <a class="cabecalho__menu__link" href="../paginas/historia.html">História</a>
-            <a class="cabecalho__menu__link" href="../paginas/diretores.html">Diretores</a>
-            <a class="cabecalho__menu__link" href="../paginas/contato.html">Contato</a>
-        </nav>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+              <li><a class="cabecalho__menu__link" href="../index.html">Inicio</a></li>
+              <li><a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a></li>
+              <li><a class="cabecalho__menu__link" href="historia.html">História</a></li>
+              <li><a class="cabecalho__menu__link active" href="diretores.html">Diretores</a></li>
+              <li><a class="cabecalho__menu__link" href="contato.html">Contato</a></li>
+            </ul>
+            </nav>
+        <img src="../imagens/pompoko/headerpompoko.png" alt="imagem do filme Pom Poko: A Grande Batalha dos Guaxinins" class="imagem__cabecalho">
     </header>
 
     <section class="conteiner primeiro">
@@ -33,11 +36,13 @@
     </section>
 
     <section class="conteiner segundo">
+        <div class="divisoria__primeira">
         <p class="sinopse">Pom Poko – A Grande Batalha dos Guaxinins, foi o oitavo filme japonês de animação produzido pelo Studio Ghibli e tem roteiro e direção por Isao Takahata.
             Baseado no folclore japonês, os tanukis (animais asiáticos similares aos guaxinins) são retratados como uma espécie mística, travessa e alegre, mestre no disfarce e na troca de formas.
             Divertidos e carinhosos, usam a metamorfose para se transformarem em quase tudo. Seus rivais são kitsune (raposas) e outros metamorfos. Visualmente, os tanukis neste filme foram retratados em três maneiras, em vários momentos como: animais realistas, antropomórficos, animais que ocasionalmente usam roupas. Algumas características foram parcialmente inspiradas do mangá de Shigeru Sugiura.
             Os testículos proeminentes são parte integrante do folclore tanuki, e eles são mostrados ao longo do filme, e também usados com frequência em sua mudança de forma.</p>
-        <div class="divisoria__segundo">
+      </div> 
+       <div class="divisoria__segundo">
             <h3 class="sinopse__titulo">Sinopse:</h3>
             <h3 class="sinopse__titulo">Informações extas:</h3>
             <p class="sinopse">Os guaxinins das colinas de Tama estão sendo expulsos de suas casas pelo rápido desenvolvimento de casas e shoppings. À medida que fica mais difícil encontrar comida e abrigo, eles decidem se unir e revidar.
@@ -67,10 +72,22 @@
         </div>
     </section>
 
-    <section class="conteiner trailer">
-        <h2 class="titulo__trailer">TRAILER</h2>
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/8HrqeOqKTHs?si=CKKwegDhlQjL-cjG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </section>
-
+    <section class="midia">
+        <div class="midia__youtube">
+            <section class="conteiner trailer">
+                <h2 class="titulo__trailer">TRAILER</h2>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/8HrqeOqKTHs?si=CKKwegDhlQjL-cjG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+            </div>
+        <div class="midia__spotify__netflix">
+            <section class="netflix">
+                <a href="https://www.netflix.com/title/70035036"><img src="../imagens/contato/Netflix_Logo_Preto.png"
+                 alt="Logo netflix"></a>
+            </section>
+        
+            <section class="spotify">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7tQlktNddJ8Qjbdi2Hi2mI?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    
+            </section>
+        </section>
 </body>
 
 <footer class="rodape">

@@ -6,23 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../sinopse.css">
-    <link rel="stylesheet" href="../responsividade-imagens.css">
     <link rel="shortcut icon" type="image/png" href="../imagens/icone_barra.ico">
+    <script defer src="app.js"></script>
     <title>Castelo no Céu</title>
 </head>
 
 <body>
     <header class="cabecalho">
-        <img src="../imagens/castelonoceu/headercastelonoceu.png" alt="imagem do Filme Castelo no Céu" class="imagem__cabecalho">
-        <nav class="cabecalho__menu">
+        <nav class="nav">
             <a href="../index.html"><img class="logo" src="../imagens/contato/logo1.png"></a>
-            <a class="cabecalho__menu__link" href="../index.html">Inicio</a>
-            <a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a>
-            <a class="cabecalho__menu__link" href="../paginas/historia.html">História</a>
-            <a class="cabecalho__menu__link" href="../paginas/diretores.html">Diretores</a>
-            <a class="cabecalho__menu__link" href="../paginas/contato.html">Contato</a>
-        </nav>
-    </header>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+              <li><a class="cabecalho__menu__link" href="../index.html">Inicio</a></li>
+              <li><a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a></li>
+              <li><a class="cabecalho__menu__link" href="historia.html">História</a></li>
+              <li><a class="cabecalho__menu__link active" href="diretores.html">Diretores</a></li>
+              <li><a class="cabecalho__menu__link" href="contato.html">Contato</a></li>
+            </ul>
+            </nav>
+            <img src="../imagens/castelonoceu/headercastelonoceu.png" alt="imagem do Filme Castelo no Céu" class="imagem__cabecalho">
+  </header>
 
     <section class="conteiner primeiro">
         <img src="../imagens/castelonoceu/castelonoceu-logo.png" alt="titulo do filme Castelo no Céu" class="imagem__titulo">
@@ -33,6 +36,7 @@
     </section>
 
     <section class="conteiner segundo">
+        <div class="divisoria__primeira">
         <p class="sinopse">O Castelo no Céu é um filme de animação japonês escrito e dirigido por Hayao Miyazaki, em
             1986. Foi o primeiro filme de animação produzido oficialmente pelo Studio Ghibli. O filme retrata as
             aventuras de um menino e uma menina tentando proteger um cristal mágico de um grupo de agentes militares,
@@ -44,7 +48,7 @@
             Nas pesquisas japonesas, foi votado como o segundo melhor filme de animação em 2006 no Japan Media Arts
             Festival e obteve o primeiro lugar, em 2008, em uma pesquisa de audiência da Oricon Inc. Considerado um
             marco no gênero steampunk, O Castelo no Céu tem forte influência na cultura popular japonesa e tem sido
-            fonte de inspiração para fillmes e jogos, tanto no Japão quanto internacionalmente.</p>
+            fonte de inspiração para fillmes e jogos, tanto no Japão quanto internacionalmente.</p></div>
         <div class="divisoria__segundo">
             <h3 class="sinopse__titulo">Sinopse:</h3>
             <h3 class="sinopse__titulo">Informações extas:</h3>
@@ -76,9 +80,23 @@
         </div>
     </section>
 
-    <section class="conteiner trailer">
-        <h2 class="titulo__trailer">TRAILER</h2>
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/FWjiXOqRKhk?si=FAmfDAzli17UbQNy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <section class="midia">
+        <div class="midia__youtube">
+            <section class="conteiner trailer">
+                <h2 class="titulo__trailer">TRAILER</h2>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/FWjiXOqRKhk?si=FAmfDAzli17UbQNy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+        </div>
+        <div class="midia__spotify__netflix">
+            <section class="netflix">
+                <a href="https://www.netflix.com/watch/60027393?trackId=255824129&tctx=0%2C0%2Cbab39fa9-47ce-4dcd-92ae-49b14ab22391-358417128%2Cbab39fa9-47ce-4dcd-92ae-49b14ab22391-358417128%7C2%2C%2C%2C%2C%2C%2CVideo%3A60027393%2CdetailsPagePlayButton"><img src="../imagens/contato/Netflix_Logo_Preto.png"
+                 alt="Logo netflix"></a>
+            </section>
+        
+            <section class="spotify">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2SKsrmhs7Qqm3012D36JnU?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+        </div>
     </section>
 
 </body>

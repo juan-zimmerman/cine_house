@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../sinopse.css">
-    <link rel="stylesheet" href="../responsividade-imagens.css">
     <link rel="shortcut icon" type="image/png" href="../imagens/icone_barra.ico">
+    <script defer src="app.js"></script>
     <title>Ponyo</title>
 </head>
 
 <body>
     <header>
-        <img src="../imagens/ponyo/ponyoheader.png" alt="imagem do filme Ponyo" class="imagem__cabecalho">
-        <nav class="cabecalho__menu">
+        <nav class="nav">
             <a href="../index.html"><img class="logo" src="../imagens/contato/logo1.png"></a>
-            <a class="cabecalho__menu__link" href="../index.html">Inicio</a>
-            <a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a>
-            <a class="cabecalho__menu__link" href="../paginas/historia.html">História</a>
-            <a class="cabecalho__menu__link" href="../paginas/diretores.html">Diretores</a>
-            <a class="cabecalho__menu__link" href="../paginas/contato.html">Contato</a>
-        </nav>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+              <li><a class="cabecalho__menu__link" href="../index.html">Inicio</a></li>
+              <li><a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a></li>
+              <li><a class="cabecalho__menu__link" href="historia.html">História</a></li>
+              <li><a class="cabecalho__menu__link active" href="diretores.html">Diretores</a></li>
+              <li><a class="cabecalho__menu__link" href="contato.html">Contato</a></li>
+            </ul>
+            </nav>
+        <img src="../imagens/ponyo/ponyoheader.png" alt="imagem do filme Ponyo" class="imagem__cabecalho">
     </header>
 
     <section class="conteiner primeiro">
@@ -33,6 +36,7 @@
     </section>
 
     <section class="conteiner segundo">
+        <div class="divisoria__primeira">
         <p class="sinopse">Ponyo – Uma Amizade que Veio do Mar é um filme de animação japonês dirigido por Hayao
             Miyazaki e produzido pelo Studio Ghibli. A data de estreia no Japão foi 19 de julho de 2008. O filme teve
             sua estreia no Brasil em 2 de julho de 2010.
@@ -40,6 +44,7 @@
             Ponyo é uma peixinha dourada que conhece o garoto Sosuke. Ele a leva para a sua casa e decide cuidar dela. O
             amor e a amizade deles são tão grandes, que Ponyo resolve se tornar humana só para ficar mais tempo ao lado
             de Sosuke.</p>
+        </div>
         <div class="divisoria__segundo">
             <h3 class="sinopse__titulo">Sinopse:</h3>
             <h3 class="sinopse__titulo">Informações extas:</h3>
@@ -76,9 +81,18 @@
         </div>
     </section>
 
-    <section class="conteiner trailer">
-        <h2 class="titulo__trailer">TRAILER</h2>
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/cCwhyX5xicE?si=ZsGgNzIqJBgOMTV5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <section class="midia">
+        <div class="midia__youtube">
+            <section class="conteiner trailer">
+                <h2 class="titulo__trailer">TRAILER</h2>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/cCwhyX5xicE?si=ZsGgNzIqJBgOMTV5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+        <div class="midia__spotify__netflix">
+            <section class="netflix">
+                <a href="https://www.netflix.com/title/70106454"><img src="../imagens/contato/Netflix_Logo_Preto.png"
+                     alt="Logo netflix"></a>
+            </section>
+            <section class="spotify">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/15rOJIfBtL56saE9EIlocm?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            </section>
     </section>
 
 </body>

@@ -6,23 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../sinopse.css">
-    <link rel="stylesheet" href="../responsividade-imagens.css">
     <link rel="shortcut icon" type="image/png" href="../imagens/icone_barra.ico">
-    <title>Ponyo</title>
+    <script defer src="app.js"></script>
+    <title>Túmulo dos Vagalumes</title>
 </head>
 
 <body>
     <header>
-        <img src="../imagens/tumulo-dos-vagalumes/headervagalumes.png" alt="imagem do filme Tumulo dos Vagalumes"
-            class="imagem__cabecalho">
-            <nav class="cabecalho__menu">
-                <a href="../index.html"><img class="logo" src="../imagens/contato/logo1.png"></a>
-                <a class="cabecalho__menu__link" href="../index.html">Inicio</a>
-                <a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a>
-                <a class="cabecalho__menu__link" href="../paginas/historia.html">História</a>
-                <a class="cabecalho__menu__link" href="../paginas/diretores.html">Diretores</a>
-                <a class="cabecalho__menu__link" href="../paginas/contato.html">Contato</a>
+        <nav class="nav">
+            <a href="../index.html"><img class="logo" src="../imagens/contato/logo1.png"></a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+              <li><a class="cabecalho__menu__link" href="../index.html">Inicio</a></li>
+              <li><a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a></li>
+              <li><a class="cabecalho__menu__link" href="historia.html">História</a></li>
+              <li><a class="cabecalho__menu__link active" href="diretores.html">Diretores</a></li>
+              <li><a class="cabecalho__menu__link" href="contato.html">Contato</a></li>
+            </ul>
             </nav>
+            <img src="../imagens/tumulo-dos-vagalumes/headervagalumes.png" alt="imagem do filme Tumulo dos Vagalumes"
+            class="imagem__cabecalho">
     </header>
 
     <section class="conteiner primeiro">
@@ -35,6 +38,7 @@
     </section>
 
     <section class="conteiner segundo">
+        <div class="divisoria__primeira">
         <p class="sinopse">Túmulo dos Vagalumes é um filme de guerra animado japonês de 1988 baseado no conto
             semi-autobiográfico de mesmo nome de Akiyuki Nosaka, publicado em 1967. O filme foi escrito e dirigido por
             Isao Takahata e animado pelo Studio Ghibli.
@@ -45,7 +49,8 @@
 
             Por conta dos direitos da publicação serem da editora Shinchosha, torna este o único filme do Studio Ghibli
             sob a propriedade Tokuma Shoten, que não teve nenhum envolvimento na produção.</p>
-        <div class="divisoria__segundo">
+      </div> 
+       <div class="divisoria__segundo">
             <h3 class="sinopse__titulo">Sinopse:</h3>
             <h3 class="sinopse__titulo">Informações extas:</h3>
             <p class="sinopse">Os irmãos Setsuko e Seita vivem no Japão em meio a Segunda Guerra. Após a morte da mãe
@@ -91,12 +96,22 @@
         </div>
     </section>
 
-    <section class="conteiner trailer">
-        <h2 class="titulo__trailer">TRAILER</h2>
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/tC0Ug7sY0wE"
-            title="Trailer: Túmulo dos Vagalumes" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+    <section class="midia">
+        <div class="midia__youtube">
+            <section class="conteiner trailer">
+                <h2 class="titulo__trailer">TRAILER</h2>
+                <iframe  class="video" width="560" height="315" src="https://www.youtube.com/embed/4vPeTSRd580?si=D04VrcfjOb5W3Uce" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+        </div>
+        <div class="midia__spotify__netflix">
+            <section class="netflix">
+                <a href="https://www.clarotvmais.com.br/filme/o-tumulo-dos-vagalumes/2783130"><img src="../imagens/clarotv.png"
+                 alt="Logo claro preto e branco"></a>
+            </section>
+        
+            <section class="spotify">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ArLhlWMgTh7R1ZT8aOBTw?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
     </section>
 
 </body>

@@ -8,10 +8,10 @@
 
 ## 📚Integrantes:
 
-* Eliza Melquiades | LinkedIn: https://www.linkedin.com/in/elizamelquiades/
-* João Paulo | LinkedIn: https://www.linkedin.com/in/jo%C3%A3o-paulo-53940b2ba/
-* Juan Zimmerman | LinkedIn: https://www.linkedin.com/in/juan-zimmerman-6849b52aa/
-* Juliane Watanabe | Linkedin: https://www.linkedin.com/in/juliane-watanabe-b-mendes-37833a263/
+* Eliza Melquiades | [LinkedIn](https://www.linkedin.com/in/elizamelquiades/)
+* João Paulo | [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-paulo-53940b2ba/)
+* Juan Zimmerman | [LinkedIn](https://www.linkedin.com/in/juan-zimmerman-6849b52aa/)
+* Juliane Watanabe | [Linkedin](https://www.linkedin.com/in/juliane-watanabe-b-mendes-37833a263/)
 
 ## ✅Resultado
 

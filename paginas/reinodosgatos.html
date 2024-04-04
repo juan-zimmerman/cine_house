@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../sinopse.css">
-    <link rel="stylesheet" href="../responsividade-imagens.css">
     <link rel="shortcut icon" type="image/png" href="../imagens/icone_barra.ico">
+    <script defer src="app.js"></script>
     <title>O Reino dos Gatos</title>
 </head>
 
 <body>
     <header>
-        <img src="../imagens/reinodosgatos/headerreinodosgatos.png" alt="imagem do filme O Reino dos Gatos" class="imagem__cabecalho">
-        <nav class="cabecalho__menu">
+        <nav class="nav">
             <a href="../index.html"><img class="logo" src="../imagens/contato/logo1.png"></a>
-            <a class="cabecalho__menu__link" href="../index.html">Inicio</a>
-            <a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a>
-            <a class="cabecalho__menu__link" href="../paginas/historia.html">História</a>
-            <a class="cabecalho__menu__link" href="../paginas/diretores.html">Diretores</a>
-            <a class="cabecalho__menu__link" href="../paginas/contato.html">Contato</a>
-        </nav>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+              <li><a class="cabecalho__menu__link" href="../index.html">Inicio</a></li>
+              <li><a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a></li>
+              <li><a class="cabecalho__menu__link" href="historia.html">História</a></li>
+              <li><a class="cabecalho__menu__link active" href="diretores.html">Diretores</a></li>
+              <li><a class="cabecalho__menu__link" href="contato.html">Contato</a></li>
+            </ul>
+            </nav>
+        <img src="../imagens/reinodosgatos/headerreinodosgatos.png" alt="imagem do filme O Reino dos Gatos" class="imagem__cabecalho">
     </header>
 
     <section class="conteiner primeiro">
@@ -33,10 +36,11 @@
     </section>
 
     <section class="conteiner segundo">
+        <div class="divisoria__primeira">
         <p class="sinopse">O Reino dos Gatos é um filme japonês dirigido por Hiroyuki Morita, lançado em 2002 e produzido pelo Studio Ghibli.
             Baseado em Baron, Neko no Danshaku (literalmente “Barão, o gato barão”) de Aoi Hiiragi, O Reino dos Gatos segue Muta (o gato gordo em Sussurros do Coração) e Barão (do mesmo filme) quando eles tentam resgatar uma jovem garota chamada Haru que entrou no mundo dos gatos.
             O Reino dos Gatos é uma história de aventura e fantasia dirigida por Hiroyuki Morita, com música de Yuuji Nomi (que também compôs a música de Sussurros do Coração) e um roteiro de Reiko Yoshida. Foi lançado nos cinemas no Japão com Ghiblies Episode II em 19 de julho de 2002 pela Toho. Foi produzido por Toshio Suzuki com Hayao Miyazaki como produtor executivo.</p>
-        <div class="divisoria__segundo">
+       </div> <div class="divisoria__segundo">
             <h3 class="sinopse__titulo">Sinopse:</h3>
             <h3 class="sinopse__titulo">Informações extas:</h3>
             <p class="sinopse">Essa é a história de Haru, uma garota muito preguiçosa que todos os dias chega atrasada na escola. Um belo dia, voltando para casa, salva um misterioso gato de ser atropelado. Na mesma noite, a menina recebe a visita do Rei dos Gatos que a convida para conhecer o seu reino, um lugar mágico, diferente de tudo, onde os bichos falam e se comportam como gente. Haru não sabe, mas ela será obrigada a se casar com o Príncipe Lune. E mais: ela vai se transformar em uma gatinha muito simpática.</p>
@@ -62,9 +66,21 @@
         </div>
     </section>
 
-    <section class="conteiner trailer">
-        <h2 class="titulo__trailer">TRAILER</h2>
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Gp-H_YOcYTM?si=eYFHS9o8OenKR0Py" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </section>
+    <section class="midia">
+        <div class="midia__youtube">
+            <section class="conteiner trailer">
+                <h2 class="titulo__trailer">TRAILER</h2>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Gp-H_YOcYTM?si=eYFHS9o8OenKR0Py" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
+        </div>
+        <div class="midia__spotify__netflix">
+            <section class="netflix">
+                <a href="https://www.netflix.com/title/70019058"><img src="../imagens/contato/Netflix_Logo_Preto.png"
+                     alt="Logo netflix"></a>
+            </section>
+            <section class="spotify">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1KDCap6BtIiJsmvilIA9oG?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>         
+            </section>
+    </section>
 </body>
 
 <footer class="rodape">

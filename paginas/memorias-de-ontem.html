@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../sinopse.css">
-    <link rel="stylesheet" href="../responsividade-imagens.css">
     <link rel="shortcut icon" type="image/png" href="../imagens/icone_barra.ico">
+    <script defer src="app.js"></script>
     <title>Memórias de Ontem</title>
 </head>
 
 <body>
     <header>
-        <img src="../imagens/memorias-de-ontem/headermemorias-de-ontem.png" alt="imagem do filme Nausicaä" class="imagem__cabecalho">
-        <nav class="cabecalho__menu">
+        <nav class="nav">
             <a href="../index.html"><img class="logo" src="../imagens/contato/logo1.png"></a>
-            <a class="cabecalho__menu__link" href="../index.html">Inicio</a>
-            <a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a>
-            <a class="cabecalho__menu__link" href="../paginas/historia.html">História</a>
-            <a class="cabecalho__menu__link" href="../paginas/diretores.html">Diretores</a>
-            <a class="cabecalho__menu__link" href="../paginas/contato.html">Contato</a>
-        </nav>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+              <li><a class="cabecalho__menu__link" href="../index.html">Inicio</a></li>
+              <li><a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a></li>
+              <li><a class="cabecalho__menu__link" href="historia.html">História</a></li>
+              <li><a class="cabecalho__menu__link active" href="diretores.html">Diretores</a></li>
+              <li><a class="cabecalho__menu__link" href="contato.html">Contato</a></li>
+            </ul>
+            </nav>
+            <img src="../imagens/memorias-de-ontem/headermemorias-de-ontem.png" alt="imagem do filme Nausicaä" class="imagem__cabecalho">
     </header>
 
     <section class="conteiner primeiro">
@@ -33,10 +36,12 @@
     </section>
 
     <section class="conteiner segundo">
+        <div class="divisoria__primeira">
         <p class="sinopse">Memórias de Ontem é um filme de animação japonesa de 1991 escrito e dirigido por Isao Takahata, baseado no mangá de 1982 do mesmo nome por Hotaru Okamoto e Yuko Tone. Foi animado pelo Studio Ghibli para Tokuma Shoten, Nippon Television Network e Hakuhodo, e distribuído pela Toho.
 
             Memórias de Ontem explora um gênero tradicionalmente considerado fora do campo dos assuntos animados: um drama realista escrito para adultos, principalmente mulheres. O filme foi surpreendentemente um sucesso de bilheteria, atraindo um grande público adulto e se tornando o filme japonês de maior bilheteria de 1991 no país. Também foi bem recebido pelos críticos, com uma classificação de 100% no Rotten Tomatoes.</p>
-        <div class="divisoria__segundo">
+      </div> 
+      <div class="divisoria__segundo">
             <h3 class="sinopse__titulo">Sinopse:</h3>
             <h3 class="sinopse__titulo">Informações extas:</h3>
             <p class="sinopse">Taeko é uma mulher solteira de 27 anos que se dedica apenas ao trabalho. Ela sai de sua nativa Tóquio pela primeira vez e viaja a Yamagata para visitar a família da irmã durante a colheita anual de açafrão-bastardo. Ao longo da viagem, ela começa a questionar se sua vida estressante é o que desejava quando jovem.</p>
@@ -64,9 +69,23 @@
         </div>
     </section>
 
-    <section class="conteiner trailer">
-        <h2 class="titulo__trailer">TRAILER</h2>
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/OfkQlZArxw0?si=pHycj8Oh4PUZFE5q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <section class="midia">
+        <div class="midia__youtube">
+            <section class="conteiner trailer">
+                <h2 class="titulo__trailer">TRAILER</h2>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/OfkQlZArxw0?si=pHycj8Oh4PUZFE5q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+        </div>
+        <div class="midia__spotify__netflix">
+            <section class="netflix">
+                <a href="https://www.netflix.com/title/80092922"><img src="../imagens/contato/Netflix_Logo_Preto.png"
+                 alt="Logo netflix"></a>
+            </section>
+        
+            <section class="spotify">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3TSh2VevYJEb5wfrnyHMVM?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+        </div>
     </section>
 
 </body>

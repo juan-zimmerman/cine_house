@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../sinopse.css">
-    <link rel="stylesheet" href="../responsividade-imagens.css">
     <link rel="shortcut icon" type="image/png" href="../imagens/icone_barra.ico">
+    <script defer src="app.js"></script>
     <title>Aya e a Bruxa</title>
 </head>
 
 <body>
     <header class="cabecalho">
-        <img src="../imagens/ayaeabruxa/header_aya_e_a_bruxa.jpg" alt="imagem do Filme Aya e a Bruxa" class="imagem__cabecalho">
-        <nav class="cabecalho__menu">
+        <nav class="nav">
             <a href="../index.html"><img class="logo" src="../imagens/contato/logo1.png"></a>
-            <a class="cabecalho__menu__link" href="../index.html">Inicio</a>
-            <a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a>
-            <a class="cabecalho__menu__link" href="../paginas/historia.html">História</a>
-            <a class="cabecalho__menu__link" href="../paginas/diretores.html">Diretores</a>
-            <a class="cabecalho__menu__link" href="../paginas/contato.html">Contato</a>
-        </nav>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+              <li><a class="cabecalho__menu__link" href="../index.html">Inicio</a></li>
+              <li><a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a></li>
+              <li><a class="cabecalho__menu__link" href="historia.html">História</a></li>
+              <li><a class="cabecalho__menu__link active" href="diretores.html">Diretores</a></li>
+              <li><a class="cabecalho__menu__link" href="contato.html">Contato</a></li>
+            </ul>
+            </nav>
+            <img src="../imagens/ayaeabruxa/header_aya_e_a_bruxa.jpg" alt="imagem do Filme Aya e a Bruxa" class="imagem__cabecalho">
     </header>
-
+    
     <section class="conteiner primeiro">
         <img src="../imagens/ayaeabruxa/logo_aya.png" alt="titulo do filme Aya e a Bruxa"
             class="imagem__titulo">
@@ -34,6 +37,7 @@
     </section>
 
     <section class="conteiner segundo">
+        <div class="divisoria__primeira">
         <p class="sinopse">Aya e a Bruxa é o mais recente filme de animação produzido pelo Studio Ghibli dirigido por
             Goro Miyazaki. Baseado no livro Tesourinha e a Bruxa de Diana Wynne Jones, sua estreia aconteceu no dia 30
             de dezembro de 2020 no canal japonês NHK.
@@ -42,7 +46,7 @@
             entre um dos pré-candidatos ao Oscar para concorrer na categoria de Melhor Filme de Animação.
 
             Aya e a Bruxa terá estreia na América do Norte no dia 3 de fevereiro e estará disponível no serviço de
-            streaming da HBO Max no dia 5 do mesmo mês.</p>
+            streaming da HBO Max no dia 5 do mesmo mês.</p></div>
         <div class="divisoria__segundo">
             <h3 class="sinopse__titulo">Sinopse:</h3>
             <h3 class="sinopse__titulo">Informações extas:</h3>
@@ -94,12 +98,26 @@
         </div>
     </section>
 
-    <section class="conteiner trailer">
-        <h2 class="titulo__trailer">TRAILER</h2>
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/V--UCVHLzAY"
+    <section class="midia">
+        <div class="midia__youtube">
+            <section class="conteiner trailer">
+                <h2 class="titulo__trailer">TRAILER</h2>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/V--UCVHLzAY"
             title="Aya e a Bruxa | Trailer Oficial | Netflix" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
+            </section>
+        </div>
+        <div class="midia__spotify__netflix">
+            <section class="netflix">
+                <a href="https://www.netflix.com/title/81316559"><img src="../imagens/contato/Netflix_Logo_Preto.png"
+                 alt="Logo netflix"></a>
+            </section>
+        
+            <section class="spotify">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0Hr5VHPpCQMpvPRP9T52zl?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+        </div>
     </section>
 
 </body>

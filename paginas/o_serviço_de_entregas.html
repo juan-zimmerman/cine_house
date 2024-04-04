@@ -6,23 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../sinopse.css">
-    <link rel="stylesheet" href="../responsividade-imagens.css">
     <link rel="shortcut icon" type="image/png" href="../imagens/icone_barra.ico">
+    <script defer src="app.js"></script>
     <title>O Serviço de entregas da Kiki</title>
 </head>
 
 <body>
     <header>
-        <img src="../imagens/entregaskiki/headerkiki.png" alt="imagem do Filme O serviço de entregas da Kiki"
-            class="imagem__cabecalho">
-            <nav class="cabecalho__menu">
+            <nav class="nav">
                 <a href="../index.html"><img class="logo" src="../imagens/contato/logo1.png"></a>
-                <a class="cabecalho__menu__link" href="../index.html">Inicio</a>
-                <a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a>
-                <a class="cabecalho__menu__link" href="../paginas/historia.html">História</a>
-                <a class="cabecalho__menu__link" href="../paginas/diretores.html">Diretores</a>
-                <a class="cabecalho__menu__link" href="../paginas/contato.html">Contato</a>
-            </nav>
+                <button class="hamburger"></button>
+                <ul class="nav-list">
+                  <li><a class="cabecalho__menu__link" href="../index.html">Inicio</a></li>
+                  <li><a class="cabecalho__menu__link" href="../paginas/filmes.html">Filmes</a></li>
+                  <li><a class="cabecalho__menu__link" href="historia.html">História</a></li>
+                  <li><a class="cabecalho__menu__link active" href="diretores.html">Diretores</a></li>
+                  <li><a class="cabecalho__menu__link" href="contato.html">Contato</a></li>
+                </ul>
+                </nav>
+                <img src="../imagens/entregaskiki/headerkiki.png" alt="imagem do Filme O serviço de entregas da Kiki"
+            class="imagem__cabecalho">
     </header>
 
     <section class="conteiner primeiro">
@@ -35,6 +38,7 @@
     </section>
 
     <section class="conteiner segundo">
+        <div class="divisoria__primeira">
         <p class="sinopse">O Serviço de Entregas da Kiki é uma longa-metragem de animação japonesa de 1989 produzido,
             escrito e dirigido por Hayao Miyazaki. Foi o quarto filme lançado nos cinemas pelo Studio Ghibli.
 
@@ -45,6 +49,7 @@
             Indo além do tema sobre a idade, seu trabalho lida com a natureza da criatividade e talento, e a dificuldade
             central que cada pessoa encontra em si mesma ao crescer e se tornar um indivíduo único, seja através da
             sorte, trabalho árduo ou confiança: o filme explora as mesmas questões que o filme Sussurros do Coração.</p>
+        </div>
         <div class="divisoria__segundo">
             <h3 class="sinopse__titulo">Sinopse:</h3>
             <h3 class="sinopse__titulo">Informações extas:</h3>
@@ -75,10 +80,25 @@
         </div>
     </section>
 
-    <section class="conteiner trailer">
-        <h2 class="titulo__trailer">TRAILER</h2>
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/4bG17OYs-GA?si=NnSMwPH8hj6Jk_vS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <section class="midia">
+        <div class="midia__youtube">
+            <section class="conteiner trailer">
+                <h2 class="titulo__trailer">TRAILER</h2>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/4bG17OYs-GA?si=NnSMwPH8hj6Jk_vS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+        </div>
+        <div class="midia__spotify__netflix">
+            <section class="netflix">
+                <a href="https://www.netflix.com/watch/60027106?trackId=255824129&tctx=0%2C0%2C2d6cb5e6-8973-49f2-9384-f8d47fcc1c3b-488217141%2C2d6cb5e6-8973-49f2-9384-f8d47fcc1c3b-488217141%7C2%2C%2C%2C%2C%2C%2CVideo%3A60027106%2CdetailsPagePlayButton"><img src="../imagens/contato/Netflix_Logo_Preto.png"
+                 alt="Logo netflix"></a>
+            </section>
+        
+            <section class="spotify">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1DTRKexQlhVuNxpYQ7zKWR?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+        </div>
     </section>
+
     
 </body>
 
