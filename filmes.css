@@ -12,6 +12,10 @@
     --cor-quarta: #ced9e3;
     --cor-quinta: #bdccd9;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 /* cabecalho */
 
@@ -122,7 +126,12 @@ a {
     text-decoration: none;
 }
 
-
+.pesquisa{
+  display: flex;
+  padding-top: 10%;
+  margin-left: 35%;
+  width: 30%; 
+}
 
 /*imagens filmes*/
 
