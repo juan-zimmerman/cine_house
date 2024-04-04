@@ -439,4 +439,29 @@ a {
   text-align: center;
   margin-top: 5%;
 }
+
+@media screen and (max-width: 390px) {
+  #img_div {
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+
+ 
+  }
+  .header__home {
+    margin-top: 20%;
+   }
+
+   .imagem__galeria__homepage{
+    margin-left: 10%;
+   }
+
+   .tamanho__imagem__direita{
+    width: 100vw;
+    position: relative;
+    right: 40px;
+   }
+  }
 /* fim do codigo e responsividade da pagina inicial*/
