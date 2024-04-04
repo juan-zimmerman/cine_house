@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Produtos</title>
+    <style>
+        /* Estilo básico para a barra de pesquisa */
+        #search-form {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Formulário de Pesquisa -->
+<form id="search-form">
+    <input type="text" id="search-input" placeholder="Digite o nome do produto...">
+    <button type="submit">Pesquisar</button>
+</form>
+
+<!-- Resultados da Pesquisa (serão exibidos aqui) -->
+<div id="search-results"></div>
+
+<script>
+    // Lista de produtos (poderia ser carregada de um banco de dados)
+    var products = [
+        { name: ".img", price: 10 },
+        { name: "Produto 2", price: 20 },
+        { name: "Produto 3", price: 30 },
+        { name: "Produto 4", price: 40 },
+        { name: "Produto 5", price: 50 }
+    ];
+
+    // Função para lidar com o envio do formulário de pesquisa
+    document.getElementById('search-form').addEventListener('submit', function(event) {
+        // Impede o envio do formulário padrão
+        event.preventDefault();
+
+        // Obtém o valor de entrada da barra de pesquisa
+        var searchTerm = document.getElementById('search-input').value;
+
+        // Chamada a função de busca com o termo de pesquisa
+        search(searchTerm);
+    });
+
+    // Função de busca
+    function search(term) {
+        // Limpa os resultados anteriores
+        var searchResults = document.getElementById('search-results');
+        searchResults.innerHTML = '';
+
+        // Filtra os produtos com base no termo de pesquisa
+        var filteredProducts = products.filter(function(product) {
+            return product.name.toLowerCase().includes(term.toLowerCase());
+        });
+
+        // Exibe os resultados da pesquisa
+        if (filteredProducts.length > 0) {
+            filteredProducts.forEach(function(product) {
+                var productElement = document.createElement('div');
+                productElement.innerHTML = "<p>Nome: " + product.name + ", Preço: $" + product.price + "</p>";
+                searchResults.appendChild(productElement);
+            });
+        } else {
+            searchResults.innerHTML = "<p>Nenhum produto encontrado.</p>";
+        }
+    }
+</script>
+
+</body>
+</html>
