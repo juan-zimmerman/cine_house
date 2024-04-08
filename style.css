@@ -254,6 +254,10 @@ a {
   transition: transform 0.5s;
 }  
 
+.rodape{
+  text-align: center;
+  margin-top: 5%;
+}
 /* inicio da responsividade da pagina inicial*/
 
 @media screen and (max-width: 768px) {
@@ -264,33 +268,24 @@ a {
     margin-left: 41px;
     margin-top: 5%;
   }
-  }
 
   .header__home {
     margin-top: 5%;
    }
-
-  @media screen and (max-width: 768px) {
-    .img {
+   
+   .img {
       width: 100%;
     }
-    }
 
-
-@media screen and (min-width: 992px) {
-  #img_div {
+ #img_div {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
   }
-  }
-
-@media only screen and (max-width: 768px) {
-  .imagem__galeria__homepage {
+.imagem__galeria__homepage {
       grid-template-columns: 1fr;
       margin-right: 20%;
   }
-
-  .img__galeria__individual__homepage {
+.img__galeria__individual__homepage {
       width: 100%;
       max-width: 100%;
       height: auto;
@@ -299,15 +294,12 @@ a {
       justify-content: space-between;
       border-radius: 8px;
   }
-}
-
-@media (max-width: 768px) {
-
-  .botao__filmes {
+.botao__filmes {
     margin: 1em auto;
     margin-top: 20%;
     margin-bottom: 10%;
   }
+
   .container {
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -316,7 +308,7 @@ a {
       "botao";
   }
 
-  .home_txt_central {
+   .home_txt_central {
     width: auto;
     margin-left: 10%;
   }
@@ -346,7 +338,7 @@ a {
     margin-top: -5%;
     margin-bottom: 50%;
   }
-  .hamburger {
+ .hamburger {
     display: block;
     z-index: 1;
     margin-top: 15px;
@@ -369,8 +361,7 @@ a {
   
     pointer-events: none;
   }
-  
-  .nav-list a {
+.nav-list a {
     font-size: 24px;
     opacity: 0;
   }
@@ -432,15 +423,7 @@ a {
   a:visited {
    color: black;
   }
-
-}
-
-.rodape{
-  text-align: center;
-  margin-top: 5%;
-}
-
-@media screen and (max-width: 390px) {
+  
   #img_div {
       grid-template-columns: 1fr 1fr;
       grid-column-gap: 20px;
@@ -464,4 +447,10 @@ a {
     right: 40px;
    }
   }
+
+
+
+
+
+  
 /* fim do codigo e responsividade da pagina inicial*/

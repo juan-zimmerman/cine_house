@@ -143,6 +143,7 @@ body{
     grid-template-columns: 1fr;
     margin-left: 5%;
     margin-right: 7%;
+    text-align: justify;
 }
 
 .divisoria__segundo {
@@ -162,8 +163,6 @@ body{
     display: grid;
     grid-template-columns: 1fr;
 }
-
-
 
 
 .terceiro {
@@ -282,9 +281,7 @@ a:visited {
         font-size: 16px; 
        
     }
-}
 
-@media only screen and (max-width: 768px) {
     .divisoria__segundo {
         grid-template-columns: 1fr 1fr;
     
@@ -295,19 +292,18 @@ a:visited {
         font-size: small;
         
     }
+
     .divisoria__primeira{
         
         text-align: justify;
     }
+
     .sinopse__titulo {
         font-size: medium;
         margin-top: 10%;
     }
 
-}
-
-@media only screen and (max-width: 768px) {
-    .imagem__galeria {
+.imagem__galeria {
         grid-template-columns: 1fr 1fr;
         margin-right: 5%;
     }
@@ -321,14 +317,13 @@ a:visited {
         justify-content: space-between;
         border-radius: 8px;
     }
+
     .titulo__galeria {
         font-size: medium;
         margin-top: 10%;
     }
-}
 
-@media only screen and (max-width: 768px) {
-    .video {
+.video {
         width: auto;
         height: auto;
         max-width: 100%;
@@ -336,12 +331,13 @@ a:visited {
         border-radius: 12px;
         
     }
+
     .titulo__trailer {
         font-size: medium;
         
       }
 
-    .midia__youtube,
+      .midia__youtube,
     .midia__spotify__netflix {
         display: block;
         margin-top: 8%;
@@ -357,10 +353,8 @@ a:visited {
     .netflix {
         text-align: center;
         width: 50%;
-        
-        
     }
-
+    
     .rodape{
         text-align: center;
         margin-top: 1em;
@@ -371,8 +365,8 @@ a:visited {
         z-index: 1;
         margin-top: 15px;
       }
-      
-      .nav-list {
+
+.nav-list {
         position: fixed;
         top: 0;
         left: 0;
@@ -389,7 +383,7 @@ a:visited {
       
         pointer-events: none;
       }
-      
+
       .nav-list a {
         font-size: 24px;
         opacity: 0;
@@ -415,7 +409,7 @@ a:visited {
         transition: 0.5s 0.8s;
       }
       
-      /* Estilos ativos */
+/* Estilos ativos */
       
       .nav.active .nav-list {
         clip-path: circle(1500px at 90% -15%);
@@ -441,8 +435,7 @@ a:visited {
         transform: rotate(-135deg);
         top: -9px;
       }
+
 }
-        
- 
             
       

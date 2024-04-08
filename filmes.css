@@ -211,8 +211,7 @@ a {
       pointer-events: none;
     }
     
-    .pesquisa{
-      
+    .pesquisa{    
   margin-top: 20%;
     }
 
@@ -267,9 +266,6 @@ a {
       transform: rotate(-135deg);
       top: -9px;
     }
-    }
-  
-    @media screen and (max-width: 768px) {
       .img {
         width: 100%;
       }
