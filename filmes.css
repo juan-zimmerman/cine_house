@@ -24,8 +24,7 @@
   color: var(--cor-quinta);
 }
 
-
-body{
+.bg{
   background-color: var(--cor-fundo);
 }
 
