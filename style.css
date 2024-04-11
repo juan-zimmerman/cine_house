@@ -47,6 +47,9 @@ body{
   gap: 80px;
   justify-content: center;
   position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   z-index: 1;
   width: 100vw;
   height: 75px;
@@ -95,6 +98,9 @@ body{
   padding-block: 16px;
 }
 
+.img__header__topo{
+  width: 100%;
+}
 
 a {
   font-family: var(--fonte-padrao);
@@ -157,7 +163,7 @@ a {
  .botao__filmes{
   display:grid;
   text-align: center;
-  margin: 5em;
+  margin: 5em 0 5em 0;
   transition: transform 0.5s;
 }  
 
@@ -169,14 +175,15 @@ a {
 
  .container{
    display: grid;
-   width: 100vw;
+   width: 99%;
    grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
+   grid-template-rows: 1fr;
    grid-template-areas: 
    " txt-center txt-center  img-right"
    " botao botao img-right" 
    ;
    justify-items:auto;
+   padding-bottom: 15%;
  }
 
  .botao__historia{
@@ -201,7 +208,6 @@ a {
  grid-area: img-right;
  background: var(--cor-fundo);
  text-align: right;
- margin-right: 8rem;
  margin-bottom: 8rem;
  justify-self: top;
  scale: 0.7;

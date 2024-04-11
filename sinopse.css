@@ -45,11 +45,9 @@ body{
     justify-content: center;
     position: fixed;
     width: 100%;
-    padding: 8px;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 9;
     background-color: var(--cor-header);
   }
   
@@ -94,6 +92,9 @@ body{
     padding-block: 16px;
   }
   
+  .img__header__topo{
+    width: 100%;
+  }
   
   a {
     font-family: var(--fonte-padrao);
@@ -176,7 +177,7 @@ body{
 }
   
 .imagem__galeria {
-    padding: 5%;
+  padding-top: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     flex-wrap: wrap;
