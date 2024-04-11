@@ -140,7 +140,7 @@ a {
 .img{
   width: 12em;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr ;
   margin-left: 0;
   margin-top: 3rem;
   box-shadow: 10px 10px 20px black;
