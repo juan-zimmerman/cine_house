@@ -245,24 +245,23 @@ body{
     margin: 0;
 }
 
-
-
-.imagem__footer {
-    display: block;
-    align-items: center;
-    text-align: center;
-    margin: 0.5rem auto;
-    width: 95%;
-    height: 30%;
-    border-radius: 27px;
+.imagem__galeria {
+    padding: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 0%;
+    margin-bottom: -5%;
 }
+
+.img__galeria__individual{
+    border-radius: 15px;
+    margin: 10px;
+}  
 
 /* Estilos para dispositivos com largura de tela até 768px */
 @media only screen and (max-width: 768px) {
-    .imagem__footer {
-        width: 80%; 
-        height: auto;
-    }
 
     .hamburger {
         display: block;
@@ -437,9 +436,21 @@ body{
         margin: -2%;
     }
 
-    .imagem__footer {
-        width: 80%; 
-        border-radius: 5%;
+    .imagem__galeria {
+        grid-template-columns: 1fr 1fr;
+        margin-right: 5%;
+        margin-top: 10%;
+        margin-bottom: -15%;
+    }
+
+    .img__galeria__individual {
+        width: 90%;
+        max-width: 100%;
+        height: auto;
+        padding: auto;
+        margin: 15px; 
+        justify-content: space-between;
+        border-radius: 8px;
     }
 }
 .rodape{
