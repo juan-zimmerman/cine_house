@@ -229,6 +229,15 @@ margin: 10px 0 0 20px;
     text-align: center;
 }
 
+.netflix__effect{
+  scale: 1;
+  transition: transform 0.5s;
+}
+
+.netflix__effect:hover{
+  transform: scale(1.1);
+}
+
 .rodape{
     font-size: 1em;
     text-align: center;
