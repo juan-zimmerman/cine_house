@@ -275,7 +275,10 @@ a {
   .header__home {
     margin-top: 5%;
    }
-   
+  
+   .img__header__topo{
+    margin-top: 20%;
+   }
    .img {
       width: 100%;
     }

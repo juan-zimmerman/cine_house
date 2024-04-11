@@ -268,6 +268,11 @@ a:visited {
 
 @media only screen and (max-width: 768px) {
 
+
+  .img__header__topo{
+    width: 100%;
+    margin-top: 10%;
+  }
   .imagem__cabecalho {
   margin-top: 17%;
   }
