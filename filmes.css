@@ -118,14 +118,6 @@ a {
   transform: scale(1.05);
 }
 
-.menu-position{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 5%;
-    padding: 20px 50% 20px 50px;
-    text-decoration: none;
-}
-
 .pesquisa{
   display: flex;
   padding-top: 10%;
@@ -165,7 +157,7 @@ a {
   .rodape{
     text-align: center;
     margin-top: 5em;
-    
+    margin-bottom: 1em;
   }
   
   
