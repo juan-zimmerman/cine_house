@@ -44,12 +44,12 @@ body{
   gap: 80px;
   justify-content: center;
   position: fixed;
-  width: 100%;
-  padding: 8px;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 9;
+  z-index: 1;
+  width: 100vw;
+  height: 75px;
   background-color: var(--cor-header);
 }
 
@@ -58,6 +58,7 @@ body{
   height: 50px;
   transform: scale(1);
   transition: 0.3s;
+  margin-top: 10px;
 }
 
 .hamburger {
@@ -85,7 +86,7 @@ body{
   display: flex;
   gap: 32px;
   list-style: none;
-  padding: 20px;
+  margin-top: 28px;
 }
 
 .nav-list a {
