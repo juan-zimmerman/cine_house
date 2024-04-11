@@ -202,7 +202,7 @@ summary::after  {
 
   .diretor1 {
     grid-template-columns: 100%; 
-    padding: 10% 5%;
+    padding: 25% 5%;
   }
 
   .nome__diretor {
