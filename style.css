@@ -326,6 +326,7 @@ a {
   .conteudo__home {
     font-size: small;
     text-align: justify;
+    width: 80vw;
     margin-right: 15%;
 }
 
