@@ -9,7 +9,6 @@
 ## 📚Integrantes:
 
 * Eliza Melquiades | [LinkedIn](https://www.linkedin.com/in/elizamelquiades/) | [GitHub](https://github.com/elizamelq)
-* João Paulo | [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-paulo-53940b2ba/)
 * Juan Zimmerman | [LinkedIn](https://www.linkedin.com/in/juan-zimmerman-6849b52aa/) | [GitHub](https://github.com/juan-zimmerman)
 * Juliane Watanabe | [Linkedin](https://www.linkedin.com/in/juliane-watanabe-b-mendes-37833a263/) [GitHub](https://github.com/watanabejuliane)
 
