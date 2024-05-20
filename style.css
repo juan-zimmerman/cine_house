@@ -283,10 +283,6 @@ a {
       width: 100%;
     }
 
- #img_div {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-
-  }
 .imagem__galeria__homepage {
       grid-template-columns: 1fr;
       align-items: center;
