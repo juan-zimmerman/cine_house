@@ -289,7 +289,8 @@ a {
   }
 .imagem__galeria__homepage {
       grid-template-columns: 1fr;
-      margin-right: 20%;
+      align-items: center;
+      margin-right: 80px;
   }
 .img__galeria__individual__homepage {
       width: 100%;
@@ -299,6 +300,7 @@ a {
       margin: 15px; 
       justify-content: space-between;
       border-radius: 8px;
+      align-items: center;
   }
 .botao__filmes {
     margin: 1em auto;
