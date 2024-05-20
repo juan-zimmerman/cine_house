@@ -299,10 +299,15 @@ a {
       align-items: center;
   }
 .botao__filmes {
+  width: 80%;
     margin: 1em auto;
     margin-top: 20%;
     margin-bottom: 10%;
   }
+
+.botao__filmes img {
+  width: 80%;
+}
 
   .container {
     grid-template-columns: 1fr;
@@ -331,20 +336,23 @@ a {
 }
 
   .home_img_direita {
-    
     text-align: center;
     margin-bottom: 0;
     align-items: center;
   }
-  .tamanho__imagem__direita {
+  .tamanho__imagem__direita img {
     width: 100%;
     margin-bottom: 0;
   }
 
   .botao__historia {
+    margin-right: 20px;
     margin-top: 5%;
     margin-bottom: 30%;
     align-items: center;
+  }
+  .botao__historia img {
+    width:75%;
   }
  .hamburger {
     display: block;
