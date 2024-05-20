@@ -315,6 +315,7 @@ a {
 
    .home_txt_central {
     width: auto;
+    align-items: center;
     margin-left: 10%;
   }
 
