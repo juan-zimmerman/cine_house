@@ -312,6 +312,7 @@ a {
       "txt-center"
       "img-right"
       "botao";
+      align-items: center;
   }
 
    .home_txt_central {
@@ -331,9 +332,10 @@ a {
 }
 
   .home_img_direita {
-    margin: 10%;
+    margin-left: 20px;
     text-align: center;
     margin-bottom: 0;
+    align-items: center;
   }
   .tamanho__imagem__direita {
     width: 100%;
@@ -341,9 +343,10 @@ a {
   }
 
   .botao__historia {
-    margin-right: 1%;
+    margin-left: 20px;
     margin-top: 5%;
-    margin-bottom: 50%;
+    margin-bottom: 30%;
+    align-items: center;
   }
  .hamburger {
     display: block;
